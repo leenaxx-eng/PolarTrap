@@ -330,6 +330,33 @@ def admin_create_thread(body: ThreadIn, con: sqlite3.Connection = Depends(db_dep
     return {"id": tid, "root_uri": root_uri}
 
 
+def strip_identifiers(text: str) -> str:
+    """Remove @handles and links so copied root text carries no account identifiers."""
+    text = re.sub(r"@[\w.-]+", "", text)
+    text = re.sub(r"https?://\S+|\b[\w-]+(\.[\w-]+)+/\S*", "", text)
+    return re.sub(r"[ \t]{2,}", " ", text).strip()
+
+
+class ThreadFromUrlIn(BaseModel):
+    url: str = Field(max_length=300)
+    title: str = Field(min_length=1, max_length=200)
+    topic: str | None = Field(default=None, max_length=100)
+
+
+@router.post("/admin/threads_from_url", dependencies=[Depends(require_admin)])
+def admin_thread_from_url(body: ThreadFromUrlIn, con: sqlite3.Connection = Depends(db_dep)):
+    from .bluesky import BlueskyError, Client
+    try:
+        c = Client()
+        root = c.get_thread(c.post_uri_from_url(body.url), depth=0)["root"]
+    except (ValueError, BlueskyError) as e:
+        raise HTTPException(400, str(e))
+    text = strip_identifiers(root["text"])
+    if not text:
+        raise HTTPException(400, "Root post has no usable text after removing handles and links")
+    return admin_create_thread(ThreadIn(title=body.title, root_text=text, topic=body.topic), con)
+
+
 @router.get("/admin/progress", dependencies=[Depends(require_admin)])
 def admin_progress(con: sqlite3.Connection = Depends(db_dep)):
     rows = con.execute(

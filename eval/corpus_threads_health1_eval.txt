@@ -1,0 +1,6 @@
+# Held-out real-data set for the chance-level comparison (NOT used to build the reference).
+# Health-adjacent threads found in the same discovery run, disjoint from corpus_threads_health1.txt.
+at://did:plc:k4jt6heuiamymgi46yeuxtpt/app.bsky.feed.post/3mzmazlodxl2a
+at://did:plc:k4jt6heuiamymgi46yeuxtpt/app.bsky.feed.post/3n2ak6fp3ds2y
+at://did:plc:k4jt6heuiamymgi46yeuxtpt/app.bsky.feed.post/3mzuwjrjnzc25
+at://did:plc:qobvnkudcv3zlaklxxjduqoi/app.bsky.feed.post/3n26mnz2wxl23

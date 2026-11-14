@@ -16,7 +16,9 @@ import argparse
 import gzip
 import hashlib
 import json
+import os
 import sys
+from pathlib import Path
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 
@@ -26,7 +28,7 @@ from .dataset import Dataset
 from .reference import REF_DIR, STATS_PATH, STYLE_PATH, pair_record
 from .signals import interaction, style
 
-CORPUS_DIR = config.ROOT / "data" / "corpus"
+CORPUS_DIR = Path(os.getenv("CORPUS_DIR", str(config.ROOT / "data" / "corpus")))
 WHATS_HOT = "at://did:plc:z72i7hdynmk6r22z27h6tvur/app.bsky.feed.generator/whats-hot"
 HISTORY_PER_THREAD = 40
 

@@ -67,6 +67,21 @@ def is_english(record: dict) -> bool:
     return bool(letters) and sum(c.isascii() for c in letters) / len(letters) > 0.9
 
 
+def record_links(rec: dict) -> list[str]:
+    """Full link URLs from rich-text facets and external embeds (post text truncates them)."""
+    links = []
+    for f in rec.get("facets") or []:
+        for feat in f.get("features") or []:
+            if feat.get("$type") == "app.bsky.richtext.facet#link" and feat.get("uri"):
+                links.append(feat["uri"])
+    emb = rec.get("embed") or {}
+    for e in (emb, emb.get("media") or {}):
+        ext = e.get("external") or {}
+        if ext.get("uri"):
+            links.append(ext["uri"])
+    return sorted(set(links))
+
+
 def _post_row(post: dict) -> dict | None:
     rec = post.get("record") or {}
     if rec.get("$type", "app.bsky.feed.post") != "app.bsky.feed.post":
@@ -74,6 +89,7 @@ def _post_row(post: dict) -> dict | None:
     reply = rec.get("reply") or {}
     author = post.get("author") or {}
     return {
+        "links": record_links(rec),
         "uri": post["uri"],
         "did": author.get("did") or did_from_at_uri(post["uri"]),
         "handle": author.get("handle"),

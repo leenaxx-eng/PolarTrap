@@ -72,6 +72,21 @@ function pairCard(p, analysisId) {
   keys.append(l);
   c.append(keys);
   for (const n of p.notes || []) c.append(el("div", "small notice", n));
+  const sup = p.supporting || {};
+  const sd = el("div", "small muted");
+  sd.append(el("b", null, "Context only (never creates a label): "));
+  const lc = sup.lifecycle || {};
+  sd.append(el("span", null, lc.available
+    ? `account ages ${lc.age_days[0]} and ${lc.age_days[1]} days, created ${lc.creation_gap_days} days apart${lc.both_young ? " (both under 90 days)" : ""}${lc.note ? " — " + lc.note : ""}. `
+    : `lifecycle: ${lc.reason || "not available"}. `));
+  const sl = sup.shared_links || {};
+  if (sl.available) {
+    sd.append(el("span", null, sl.shared_rare_links.length
+      ? `Shared rare links: ${sl.shared_rare_links.map((x) => `${x.link} (posted by ${x.accounts_posting} accounts)`).join(", ")}. `
+      : "No shared rare links. "));
+    for (const x of sl.not_counted) sd.append(el("div", null, `${x.link}: ${x.why}`));
+  }
+  c.append(sd);
   if (p.explanation) c.append(el("p", null, p.explanation));
   const rv = el("div", "review small");
   rv.append(el("span", "muted", "Reviewer rating of this evidence: "));

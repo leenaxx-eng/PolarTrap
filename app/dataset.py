@@ -16,6 +16,7 @@ class Post:
     t: float                      # unix seconds
     parent_uri: str | None = None
     root_uri: str | None = None   # None for thread roots / standalone posts
+    links: tuple[str, ...] = ()
 
 
 @dataclass
@@ -53,7 +54,8 @@ class Dataset:
         if row.get("english") is False or not row.get("created_at") or not row.get("did"):
             return None
         p = Post(uri=row["uri"], did=row["did"], text=row.get("text") or "", t=ts(row["created_at"]),
-                 parent_uri=row.get("parent_uri"), root_uri=row.get("root_uri"))
+                 parent_uri=row.get("parent_uri"), root_uri=row.get("root_uri"),
+                 links=tuple(row.get("links") or ()))
         self.add_post(p)
         return self.posts[p.uri]
 

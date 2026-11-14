@@ -56,6 +56,9 @@ CREATE TABLE IF NOT EXISTS http_cache(
 CREATE TABLE IF NOT EXISTS stance_cache(
   key TEXT PRIMARY KEY, relation TEXT NOT NULL, confidence REAL, model TEXT, created_at TEXT);
 
+CREATE TABLE IF NOT EXISTS explain_cache(
+  key TEXT PRIMARY KEY, text TEXT NOT NULL, model TEXT, created_at TEXT);
+
 -- Ground-truth labels. NEVER read by detector code (only eval/ and admin).
 CREATE TABLE IF NOT EXISTS sandbox_labels(
   persona_id TEXT PRIMARY KEY REFERENCES sandbox_personas(id),

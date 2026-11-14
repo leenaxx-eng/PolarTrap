@@ -7,14 +7,14 @@ import os
 import sqlite3
 from collections import Counter, defaultdict
 
-from . import config, llm, stance
+from . import config, explain, llm, stance
 from .anonymize import anon_id
 from .bluesky import Client, account_created_at
 from .dataset import Dataset
-from .decide import decide
+from .decide import I_ALONE_NOTE, decide
 from .reference import STATS_PATH, STYLE_PATH, Reference, pair_record
 from .sandbox import ROOT_DID
-from .signals import interaction, style
+from .signals import interaction, lifecycle, links, style
 
 log = logging.getLogger("polartrap.pipeline")
 
@@ -172,6 +172,14 @@ def analyze_pairs(ds: Dataset, pairs: list[tuple[str, str]], ref: Reference | No
         roots |= {i.root_uri or i.parent_uri for i in pi.get((a, b), [])}
     topic = model.topic_words(thread_texts(ds, roots)) if model else set()
     out = [analyze_pair(ds, a, b, pi.get((a, b), []), ref, model, topic) for a, b in pairs]
+    # supporting signals: context only, never used by decide()
+    idx = links.link_index(ds)
+    thread_links = {l for r in ds.focus_roots if r in ds.posts for l in links.post_links(ds.posts[r])}
+    for r in out:
+        r["supporting"] = {
+            "lifecycle": lifecycle.compute(ds.accounts.get(r["a"]), ds.accounts.get(r["b"])),
+            "shared_links": links.compute(ds, r["a"], r["b"], idx, thread_links),
+        }
     out.sort(key=lambda r: (LABEL_ORDER[r["label"]], -(r["I"].get("exchanges") or 0)))
     return out
 
@@ -221,6 +229,10 @@ def public_report(ds: Dataset, pair_results: list[dict], meta: dict, names: dict
         pr["pair_key"] = "|".join(sorted((pr["a"], pr["b"])))
         pr["positions"] = {pr["a"]: pos.get(r["a"], "unknown"), pr["b"]: pos.get(r["b"], "unknown")}
         pairs.append(pr)
+    if llm.available():
+        todo = [p for p in pairs if p["flagged"] or any(n == I_ALONE_NOTE for n in p["notes"])][:15]
+        for p in todo:
+            p["explanation"] = explain.explain(p)
     ref, _ = load_models()
     banners = []
     if not llm.available():

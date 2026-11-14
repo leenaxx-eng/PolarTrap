@@ -30,6 +30,13 @@
     <textarea id="troot" placeholder="Root post text copied from a real Bluesky thread. Remove all handles and names." required style="margin-top:6px"></textarea>
     <button type="submit">Add thread</button> <span id="threadOut" class="small"></span>
   </form>
+  <form id="urlForm" class="card">
+    <b>…or copy the root text from a Bluesky URL</b> <span class="small muted">(handles and links are removed automatically)</span>
+    <input id="uurl" type="text" placeholder="https://bsky.app/profile/…/post/…" required style="margin-top:6px">
+    <div class="row" style="margin-top:6px"><input id="utitle" type="text" placeholder="Short title" required style="width:260px">
+      <input id="utopic" type="text" placeholder="Topic" style="width:180px"><button type="submit">Import</button>
+      <span id="urlOut" class="small"></span></div>
+  </form>
 
   <h2>Re-issue a code</h2>
   <form id="codeForm" class="card row">

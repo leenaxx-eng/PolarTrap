@@ -29,6 +29,14 @@ $("#threadForm").addEventListener("submit", async (e) => {
   } catch (err) { $("#threadOut").textContent = "Error: " + err.message; }
 });
 
+$("#urlForm").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  try {
+    const d = await call("/threads_from_url", { url: $("#uurl").value.trim(), title: $("#utitle").value, topic: $("#utopic").value || null });
+    $("#urlOut").textContent = "Added thread " + d.id; e.target.reset(); load();
+  } catch (err) { $("#urlOut").textContent = "Error: " + err.message; }
+});
+
 $("#codeForm").addEventListener("submit", async (e) => {
   e.preventDefault();
   try {

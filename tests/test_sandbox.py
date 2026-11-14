@@ -158,3 +158,10 @@ def test_admin_progress_counts(client):
     d = client.get("/api/sandbox/admin/progress", auth=ADMIN).json()
     assert d["participants"] == 3 and d["pairs"] == 2
     assert d["by_type"]["A"]["personas"] == 2 and d["by_type"]["D"]["personas"] == 2
+
+
+def test_strip_identifiers():
+    from app.sandbox import strip_identifiers
+    out = strip_identifiers("Reminder that @secduffy.bsky.social did this. www.news9.com/okla... https://x.co/a ok")
+    assert "@" not in out and "news9" not in out and "https" not in out
+    assert out.startswith("Reminder that") and out.endswith("ok")
