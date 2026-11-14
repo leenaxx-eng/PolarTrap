@@ -42,3 +42,23 @@ def test_explanation_wording_guard():
     assert not acceptable("These look like the same person.")
     assert not acceptable("Probably a bot network.")
     assert not acceptable("")
+
+
+def test_llm_adapts_parameter_dialect(monkeypatch):
+    import httpx
+
+    from app import config, llm
+    monkeypatch.setattr(config, "AI_ROUTER_API_KEY", "k")
+    monkeypatch.setattr(config, "AI_MODEL_CHEAP", "m")
+    seen = []
+
+    def fake_post(url, json, headers, timeout):
+        seen.append(dict(json))
+        if "max_tokens" in json:
+            return httpx.Response(400, text="Unsupported parameter: 'max_tokens'. Use 'max_completion_tokens'.")
+        if "temperature" in json:
+            return httpx.Response(400, text="Unsupported value: 'temperature' does not support 0")
+        return httpx.Response(200, json={"choices": [{"message": {"content": "OK"}}]})
+    monkeypatch.setattr(llm.httpx, "post", fake_post)
+    assert llm.chat([{"role": "user", "content": "hi"}], retries=0) == "OK"
+    assert len(seen) == 3 and seen[-1]["max_completion_tokens"] == 2400 and "temperature" not in seen[-1]
