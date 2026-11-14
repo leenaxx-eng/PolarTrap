@@ -78,7 +78,7 @@ def _classify_batch(batch: list[tuple[int, str, str]]) -> dict[int, tuple[str, f
     lines = [f"ITEM {i}\nPARENT: {_clip(p)}\nREPLY: {_clip(r)}" for i, p, r in batch]
     content = llm.chat([{"role": "system", "content": SYSTEM},
                         {"role": "user", "content": "\n\n".join(lines)}],
-                       max_tokens=40 * len(batch) + 40)
+                       max_tokens=60 * len(batch) + 1500)  # reasoning models spend hidden tokens first
     return parse_results(content, [i for i, _, _ in batch])
 
 

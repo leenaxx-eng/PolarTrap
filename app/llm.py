@@ -17,6 +17,7 @@ class LLMStatus:
     """Process-wide counters so the UI can show a banner when the router fails."""
     calls = 0
     failures = 0
+    truncated = 0          # finish_reason == "length": output cut off (parsed as unknown downstream)
     last_error: str | None = None
 
 
@@ -56,7 +57,11 @@ def chat(messages: list[dict], model: str | None = None, max_tokens: int = 400,
         try:
             r = httpx.post(url, json=body, headers=headers, timeout=timeout)
             if r.status_code == 200:
-                content = r.json()["choices"][0]["message"].get("content")
+                choice = r.json()["choices"][0]
+                if choice.get("finish_reason") == "length":
+                    LLMStatus.truncated += 1
+                    log.warning("LLM output truncated (finish_reason=length) for model %s", model)
+                content = choice["message"].get("content")
                 if isinstance(content, list):  # some providers return content parts
                     content = "".join(p.get("text", "") for p in content if isinstance(p, dict))
                 return content
