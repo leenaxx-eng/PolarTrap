@@ -330,6 +330,28 @@ def admin_create_thread(body: ThreadIn, con: sqlite3.Connection = Depends(db_dep
     return {"id": tid, "root_uri": root_uri}
 
 
+@router.delete("/admin/pairs/{pair_id}", dependencies=[Depends(require_admin)])
+def admin_delete_pair(pair_id: str, con: sqlite3.Connection = Depends(db_dep)):
+    """Remove a pair completely (e.g. test pairs created before real collection):
+    its personas, labels, codes, sessions and the personas' own posts."""
+    pids = [r[0] for r in con.execute("SELECT persona_id FROM sandbox_labels WHERE pair_id=?", (pair_id,))]
+    if not pids:
+        raise HTTPException(404, "Pair not found")
+    marks = ",".join("?" * len(pids))
+    dids = [f"sbx:{p}" for p in pids]
+    con.execute("BEGIN")
+    try:
+        n_posts = con.execute(f"DELETE FROM posts WHERE namespace='sandbox' AND did IN ({marks})", dids).rowcount
+        for table in ("sandbox_sessions", "sandbox_codes", "sandbox_labels"):
+            con.execute(f"DELETE FROM {table} WHERE persona_id IN ({marks})", pids)
+        con.execute(f"DELETE FROM sandbox_personas WHERE id IN ({marks})", pids)
+        con.execute("COMMIT")
+    except Exception:
+        con.execute("ROLLBACK")
+        raise
+    return {"deleted_pair": pair_id, "personas": len(pids), "posts": n_posts}
+
+
 def strip_identifiers(text: str) -> str:
     """Remove @handles and links so copied root text carries no account identifiers."""
     text = re.sub(r"@[\w.-]+", "", text)

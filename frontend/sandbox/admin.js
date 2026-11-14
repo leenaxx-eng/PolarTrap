@@ -59,6 +59,18 @@ async function load() {
     [p.pair_type, p.pair_id, p.participant_id, p.id, p.display_name, p.progress.replies, p.progress.threads,
      p.progress.feed_posts, p.progress.words, p.progress.targets_met ? "yes" : "", p.last_post || ""]
       .forEach((v) => { const td = document.createElement("td"); td.textContent = v ?? ""; r.append(td); });
+    const td = document.createElement("td");
+    if (p.pair_id) {
+      const b = document.createElement("button"); b.className = "secondary small"; b.textContent = "delete pair";
+      b.addEventListener("click", async () => {
+        if (!confirm(`Delete pair ${p.pair_id} (both personas, their codes and ALL their posts)? This cannot be undone.`)) return;
+        const r2 = await fetch("/api/sandbox/admin/pairs/" + encodeURIComponent(p.pair_id), { method: "DELETE" });
+        if (!r2.ok) alert("Delete failed: " + r2.status);
+        load();
+      });
+      td.append(b);
+    }
+    r.append(td);
     t.append(r);
   }
 }

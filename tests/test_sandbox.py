@@ -165,3 +165,18 @@ def test_strip_identifiers():
     out = strip_identifiers("Reminder that @secduffy.bsky.social did this. www.news9.com/okla... https://x.co/a ok")
     assert "@" not in out and "news9" not in out and "https" not in out
     assert out.startswith("Reminder that") and out.endswith("ok")
+
+
+def test_admin_delete_pair(client):
+    tid = make_thread(client)
+    pr = make_pair(client, "C", ("P01", "P02"))
+    keep = make_pair(client, "D", ("P03", "P04"))
+    login(client, pr["personas"][0]["code"])
+    assert client.post("/api/sandbox/post", json={"text": "test post", "thread_id": tid}).status_code == 200
+    assert client.delete(f"/api/sandbox/admin/pairs/{pr['pair_id']}").status_code == 401
+    r = client.delete(f"/api/sandbox/admin/pairs/{pr['pair_id']}", auth=ADMIN)
+    assert r.json() == {"deleted_pair": pr["pair_id"], "personas": 2, "posts": 1}
+    assert client.get("/api/sandbox/me").status_code == 401          # session gone
+    d = client.get("/api/sandbox/admin/progress", auth=ADMIN).json()
+    assert d["pairs"] == 1 and {p["pair_id"] for p in d["personas"]} == {keep["pair_id"]}
+    assert client.delete("/api/sandbox/admin/pairs/nope", auth=ADMIN).status_code == 404
