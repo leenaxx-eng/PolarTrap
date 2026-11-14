@@ -1,0 +1,37 @@
+# Use this on a VPS where Traefik already owns ports 80/443 (e.g. Hostinger Docker Manager):
+#   docker compose -f docker-compose.traefik.yml up -d --build
+# Set in .env: DOMAIN, TRAEFIK_NETWORK, TRAEFIK_CERTRESOLVER, TRAEFIK_ENTRYPOINT
+# (copy the values from an existing app's labels: docker inspect <container> --format '{{json .Config.Labels}}')
+services:
+  app:
+    build:
+      context: .
+      args:
+        GIT_COMMIT: ${GIT_COMMIT:-unknown}
+    env_file: .env
+    volumes:
+      - pt_data:/data
+    restart: unless-stopped
+    networks:
+      - traefik
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=${TRAEFIK_NETWORK}
+      - traefik.http.routers.polartrap.rule=Host(`${DOMAIN}`)
+      - traefik.http.routers.polartrap.entrypoints=${TRAEFIK_ENTRYPOINT:-websecure}
+      - traefik.http.routers.polartrap.tls=true
+      - traefik.http.routers.polartrap.tls.certresolver=${TRAEFIK_CERTRESOLVER:-letsencrypt}
+      - traefik.http.services.polartrap.loadbalancer.server.port=8000
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://localhost:8000/api/health',timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+networks:
+  traefik:
+    external: true
+    name: ${TRAEFIK_NETWORK}
+
+volumes:
+  pt_data:
