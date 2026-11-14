@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PolarTrap</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header class="top"><a class="brand" href="/">PolarTrap</a>
+  <nav><a href="/metrics">Metrics</a><a href="/about">About &amp; limitations</a><a href="/sandbox">Sandbox</a></nav></header>
+<main>
+  <h1>PolarTrap</h1>
+  <p>Bot detectors find accounts that agree too much. PolarTrap looks for accounts that
+    <em>disagree suspiciously well</em>, and tells you when it can't tell.</p>
+
+  <form id="f" class="card">
+    <label for="url"><b>Bluesky thread URL</b></label>
+    <input id="url" type="text" placeholder="https://bsky.app/profile/handle/post/3k..." required>
+    <div class="row" style="margin-top:10px"><button type="submit">Analyse thread</button>
+      <span id="msg" class="small muted"></span></div>
+  </form>
+
+  <h2>How it works</h2>
+  <ol>
+    <li>We import the public reply tree and each participant's recent public posts (read-only).</li>
+    <li>A language model labels each reply as agree / disagree / neutral. Failures are counted as <em>unknown</em>, never guessed.</li>
+    <li>For pairs that argue, we compare two independent kinds of evidence with a frozen reference corpus of real Bluesky arguments:
+      <b>interaction pattern</b> (one key, however many signals feed it) and <b>writing style</b> with topic words removed.</li>
+    <li>A pair is surfaced for human review only when the evidence is extreme against that reference. When data is missing, the answer is
+      <em>Insufficient evidence</em>.</li>
+  </ol>
+  <p class="small muted">Accounts are shown as pseudonyms. A percentile is a comparison with the reference corpus, not a probability of coordination.
+    PolarTrap never claims that accounts are run by the same person. <a href="/metrics">See measured results</a>.</p>
+</main>
+<script src="/static/home.js"></script>
+</body></html>

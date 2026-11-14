@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sandbox</title><link rel="stylesheet" href="/static/style.css"></head>
+<body data-page="home">
+<header class="top"><a class="brand" href="/sandbox">PolarTrap sandbox</a>
+  <nav><a href="/sandbox">Threads</a><a href="/sandbox/feed">My feed</a></nav>
+  <span class="small muted">Signed in as <b id="who"></b></span> <button id="logout" class="secondary small">Log out</button></header>
+<main>
+  <h2>Your progress</h2>
+  <div id="progress" class="progress"></div>
+  <p id="done" class="okc small" hidden>Targets reached - thank you! You can keep writing if you like.</p>
+  <p class="small muted">Targets: at least 10 replies across at least 3 threads, at least 10 general feed posts, and 600+ words in total.
+    Write everything by hand, in your own words. No AI-generated text.</p>
+  <h2>Threads</h2>
+  <div id="threads"></div>
+  <p id="flash"></p>
+</main>
+<script src="/static/sandbox/sandbox.js"></script>
+</body></html>

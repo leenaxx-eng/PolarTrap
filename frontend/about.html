@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About PolarTrap</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header class="top"><a class="brand" href="/">PolarTrap</a>
+  <nav><a href="/metrics">Metrics</a><a href="/about">About &amp; limitations</a><a href="/sandbox">Sandbox</a></nav></header>
+<main>
+  <h1>About &amp; limitations</h1>
+  <h2>What PolarTrap claims</h2>
+  <p>PolarTrap detects <em>unusual patterns of coordinated-looking antagonistic interaction</em> and shows the evidence for
+    human review. It never states that accounts are run by the same person, and its labels are signals, not proof.</p>
+
+  <h2>How evidence is counted</h2>
+  <ul>
+    <li>All signals derived from the interaction itself (recurring arguments, reply latency, alternation, simultaneity, reply density)
+      count together as <b>one</b> key, because two real people arguing actively can produce all of them at once.</li>
+    <li>A second, independent key must come from outside the interaction: writing style with topic words removed (and long-term
+      posting schedule where available).</li>
+    <li>Thresholds are percentiles among comparable real antagonistic pairs in a frozen reference corpus, fixed before we looked at
+      any test results. Reference pairs are a distribution for comparison, not confirmed innocent accounts.</li>
+    <li>A percentile is not a probability of coordination.</li>
+  </ul>
+
+  <h2>Known limitations</h2>
+  <ul>
+    <li><b>Domain shift.</b> Our test pairs were written live in a sandbox during one event, while the reference corpus comes from
+      Bluesky. False-flag rates measured in the sandbox apply to the sandbox setting and may not carry over to Bluesky.</li>
+    <li><b>Staged vs. intense arguments.</b> If two different people stage an argument and leave only interaction traces, PolarTrap
+      may be unable to tell it apart from an intense genuine argument. Interaction pattern alone is never enough for a flag.</li>
+    <li><b>Low-text accounts.</b> Writing style needs at least 500 words per account (1,500 for full confidence). Below that, the
+      answer is <em>Insufficient evidence</em>, not "normal".</li>
+    <li><b>English only</b> in this version.</li>
+    <li><b>Sophisticated actors</b> who deliberately vary their writing style can evade the style key.</li>
+    <li><b>Small pilot.</b> Detection rates come from a small exploratory pilot and are reported with uncertainty intervals, not
+      as validated performance.</li>
+  </ul>
+
+  <h2>Ethics</h2>
+  <ul>
+    <li>Read-only on Bluesky: we never post, reply, like, follow or create accounts there.</li>
+    <li>Accounts are shown as pseudonyms (<code>acct_</code> + keyed hash). Real handles are visible only to the team in a password-protected view.</li>
+    <li>Sandbox volunteers gave consent, wrote all text by hand, and are stored only under pseudonymous IDs.</li>
+  </ul>
+</main>
+</body></html>

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sandbox feed</title><link rel="stylesheet" href="/static/style.css"></head>
+<body data-page="feed">
+<header class="top"><a class="brand" href="/sandbox">PolarTrap sandbox</a>
+  <nav><a href="/sandbox">Threads</a><a href="/sandbox/feed">My feed</a></nav>
+  <button id="logout" class="secondary small">Log out</button></header>
+<main>
+  <div id="progress" class="progress"></div>
+  <h1>Feed</h1>
+  <p class="small muted">General posts: anything you'd post on a normal day (your weekend, food, a gripe, a joke). Not the debate topics.</p>
+  <form id="f" class="card">
+    <textarea id="text" maxlength="1000" placeholder="What's on your mind? (typed by hand)" required></textarea>
+    <div class="row"><button id="send" type="submit">Post</button><span id="flash"></span></div>
+  </form>
+  <div id="posts"></div>
+</main>
+<script src="/static/sandbox/sandbox.js"></script>
+</body></html>

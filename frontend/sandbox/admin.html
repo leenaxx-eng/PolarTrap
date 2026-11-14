@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sandbox admin</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header class="top"><a class="brand" href="/sandbox/admin">PolarTrap sandbox admin</a></header>
+<main>
+  <p class="small muted">Your browser asks for the admin password (any username). Pair labels on this page are ground truth:
+    never show them to participants.</p>
+
+  <h2>Create a pair</h2>
+  <form id="pairForm" class="card">
+    <div class="row">
+      <select id="ptype" style="width:auto">
+        <option value="A">A: one person, two opposite personas</option>
+        <option value="B">B: two people, staged argument</option>
+        <option value="C">C: two people, genuine disagreement</option>
+        <option value="D">D: genuine, fast and regular replies</option>
+      </select>
+      <input id="p1" type="text" placeholder="participant ID, e.g. P01" style="width:160px">
+      <input id="p2" type="text" placeholder="participant ID, e.g. P02" style="width:160px">
+      <button type="submit">Create + get codes</button>
+    </div>
+    <pre id="pairOut"></pre>
+  </form>
+
+  <h2>Add a thread</h2>
+  <form id="threadForm" class="card">
+    <input id="ttitle" type="text" placeholder="Short title" required>
+    <input id="ttopic" type="text" placeholder="Topic (e.g. remote work)" style="margin-top:6px">
+    <textarea id="troot" placeholder="Root post text copied from a real Bluesky thread. Remove all handles and names." required style="margin-top:6px"></textarea>
+    <button type="submit">Add thread</button> <span id="threadOut" class="small"></span>
+  </form>
+
+  <h2>Re-issue a code</h2>
+  <form id="codeForm" class="card row">
+    <input id="pid" type="text" placeholder="persona_id" style="width:220px"><button type="submit">New code</button>
+    <span id="codeOut" class="small"></span>
+  </form>
+
+  <h2>Progress <button id="reload" class="secondary small">Reload</button></h2>
+  <div id="summary"></div>
+  <table id="ptable"></table>
+</main>
+<script src="/static/sandbox/admin.js"></script>
+</body></html>

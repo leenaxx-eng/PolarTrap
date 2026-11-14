@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sandbox login</title><link rel="stylesheet" href="/static/style.css"></head>
+<body data-page="login">
+<header class="top"><a class="brand" href="/">PolarTrap</a><nav><a href="/about">About</a></nav></header>
+<main>
+  <h1>PolarTrap sandbox</h1>
+  <p>Enter the one-time code the team gave you. Each code works once. If you run two personas, use two browser
+    profiles (or one normal and one private window), one per persona.</p>
+  <form id="f" class="card">
+    <label for="code"><b>Your code</b></label>
+    <input id="code" type="text" autocomplete="off" placeholder="ABCDE-FGHJK" required>
+    <p class="small"><label><input id="consent" type="checkbox">
+      I'm taking part voluntarily in the PolarTrap research sandbox (Junction 2026). My posts are stored under a pseudonymous ID
+      and analysed to test a detection method. I'll write all text myself: no AI-generated or copied text, and no personal
+      information about me or anyone else. I can ask the team to delete my data at any time.</label></p>
+    <div class="row"><button type="submit">Enter sandbox</button><span id="msg" class="err small"></span></div>
+  </form>
+</main>
+<script src="/static/sandbox/sandbox.js"></script>
+</body></html>

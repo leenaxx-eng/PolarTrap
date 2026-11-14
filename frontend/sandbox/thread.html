@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Thread</title><link rel="stylesheet" href="/static/style.css"></head>
+<body data-page="thread">
+<header class="top"><a class="brand" href="/sandbox">PolarTrap sandbox</a>
+  <nav><a href="/sandbox">Threads</a><a href="/sandbox/feed">My feed</a></nav>
+  <button id="logout" class="secondary small">Log out</button></header>
+<main>
+  <div id="progress" class="progress"></div>
+  <h1 id="title"></h1>
+  <div class="card root" id="rootText"></div>
+  <div id="replies"></div>
+  <form id="f" class="composer">
+    <div class="row small"><span id="replying">Replying to the original post</span>
+      <button type="button" id="cancel" class="secondary small" hidden>Reply to original instead</button></div>
+    <textarea id="text" maxlength="1000" placeholder="Write your reply by hand..." required></textarea>
+    <div class="row"><button id="send" type="submit">Post reply</button><span id="flash"></span></div>
+  </form>
+</main>
+<script src="/static/sandbox/sandbox.js"></script>
+</body></html>
