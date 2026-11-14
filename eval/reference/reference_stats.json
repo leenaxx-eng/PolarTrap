@@ -1,0 +1,6745 @@
+{
+ "snapshot": {
+  "name": "health1",
+  "content_hash": "aaa36057c0a374a132d0cd8ca63d701814f5242240f2e4e58abd375e2777f746",
+  "created_at": "2026-11-14T10:34:43+00:00"
+ },
+ "built_at": "2026-11-14T12:13:37+00:00",
+ "config": {
+  "extreme_percentile": 95.0,
+  "min_controls": 50,
+  "min_exchanges": 4,
+  "seed": 20261114,
+  "stance_model": "gpt-5.6-luna"
+ },
+ "overlap": {
+  "threads": 14,
+  "accounts_in_threads": 589,
+  "accounts_in_2plus_threads": 41,
+  "interacting_pairs": 1401,
+  "interacting_pairs_2plus_threads": 492,
+  "interactions": 4947,
+  "relations": {
+   "agree": 2487,
+   "neutral": 1217,
+   "disagree": 1223,
+   "unknown": 20
+  },
+  "antagonistic_pairs": 447,
+  "antagonistic_pairs_2plus_threads": 164,
+  "antagonistic_pairs_4plus_exchanges": 200
+ },
+ "summary": {
+  "pairs": 447,
+  "I_evaluable": 200,
+  "S_evaluable": 403,
+  "S_full": 386
+ },
+ "pairs": [
+  {
+   "exchanges": 2,
+   "words_min": 2541,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.6666666666666666,
+    "simultaneity": 2.127659574468085
+   },
+   "S_ok": true,
+   "S": 0.2225546483392482,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 3937,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.21757746455665677,
+    "alternation": 0.8571428571428571,
+    "simultaneity": 1.875
+   },
+   "S_ok": true,
+   "S": 0.24284249298452804,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 80,
+   "words_min": 5104,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 25.0,
+    "regularity": -0.5726794409736544,
+    "alternation": 0.8666666666666667,
+    "simultaneity": 0.3846153846153846
+   },
+   "S_ok": true,
+   "S": 0.09488711303682222,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 3117,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.4820681437117804,
+    "alternation": 1.0,
+    "simultaneity": 1.0344827586206897
+   },
+   "S_ok": true,
+   "S": 0.11189970499034843,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 3117,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.33213153126630235,
+    "alternation": 1.0,
+    "simultaneity": 1.6666666666666667
+   },
+   "S_ok": true,
+   "S": 0.14897160558516254,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 7841,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.7692307692307692
+   },
+   "S_ok": true,
+   "S": 0.5313351150599748,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 7841,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.6330600014966007,
+    "alternation": 1.0,
+    "simultaneity": 1.8604651162790697
+   },
+   "S_ok": true,
+   "S": 0.4709290461354027,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 7841,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.4814814814814814
+   },
+   "S_ok": true,
+   "S": 0.5507604222359218,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 12,
+   "words_min": 7841,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5345107551916287,
+    "alternation": 1.0,
+    "simultaneity": 0.9375
+   },
+   "S_ok": true,
+   "S": 0.5621938556713979,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 161,
+   "words_min": 3859,
+   "posts_min": 303,
+   "I_ok": true,
+   "I": {
+    "recurrence": 28.0,
+    "regularity": -0.5568563314233571,
+    "alternation": 0.8203592814371258,
+    "simultaneity": 1.2
+   },
+   "S_ok": true,
+   "S": 0.17326011214761594,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 12,
+   "words_min": 4630,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5512021450625912,
+    "alternation": 1.0,
+    "simultaneity": 1.1976047904191618
+   },
+   "S_ok": true,
+   "S": 0.2936995353837717,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 4630,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.4268259992900332,
+    "alternation": 1.0,
+    "simultaneity": 1.6149068322981366
+   },
+   "S_ok": true,
+   "S": 0.20534760800642884,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 4630,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.3085617366651992,
+    "alternation": 1.0,
+    "simultaneity": 1.25
+   },
+   "S_ok": true,
+   "S": 0.1889341733950944,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 5856,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.0
+   },
+   "S_ok": true,
+   "S": 0.45523855971777005,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 5644,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.7407407407407407
+   },
+   "S_ok": true,
+   "S": 0.2770676023623169,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 5826,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.21945855056214908,
+    "alternation": 1.0,
+    "simultaneity": 2.1052631578947367
+   },
+   "S_ok": true,
+   "S": 0.36822992753352063,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 5614,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.5128205128205129
+   },
+   "S_ok": true,
+   "S": 0.0854498022341207,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 2702,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 3.5294117647058822
+   },
+   "S_ok": true,
+   "S": 0.3179597022078291,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4447,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.7142857142857143
+   },
+   "S_ok": true,
+   "S": 0.07601458209183616,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4447,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.7142857142857143
+   },
+   "S_ok": true,
+   "S": 0.213580042600036,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 247,
+   "posts_min": 8,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.7295562312424021,
+    "alternation": 0.625,
+    "simultaneity": 1.0
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4547,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.6216216216216217
+   },
+   "S_ok": true,
+   "S": 0.4112262553837347,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4547,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.8368132944060243,
+    "alternation": 1.0,
+    "simultaneity": 1.452513966480447
+   },
+   "S_ok": true,
+   "S": 0.3991661131081942,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 4547,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.7526052902377702,
+    "alternation": 1.0,
+    "simultaneity": 2.393162393162393
+   },
+   "S_ok": true,
+   "S": 0.3190833437677722,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 3792,
+   "posts_min": 302,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.45922348446460376,
+    "alternation": 1.0,
+    "simultaneity": 2.762430939226519
+   },
+   "S_ok": true,
+   "S": -0.018581681779766535,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 3792,
+   "posts_min": 302,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.4560109313040706,
+    "alternation": 0.8333333333333334,
+    "simultaneity": 1.9555555555555555
+   },
+   "S_ok": true,
+   "S": -0.06612275570372195,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3792,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.5
+   },
+   "S_ok": true,
+   "S": 0.239685843345952,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 7234,
+   "posts_min": 302,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.6666666666666666,
+    "simultaneity": 0.8333333333333334
+   },
+   "S_ok": true,
+   "S": 0.3893264491116786,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4992,
+   "posts_min": 302,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.16666666666666666,
+    "simultaneity": 1.971830985915493
+   },
+   "S_ok": true,
+   "S": 0.13009591382523022,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 15,
+   "words_min": 4253,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 7.0,
+    "regularity": -0.37927981141597944,
+    "alternation": 1.0,
+    "simultaneity": 1.7142857142857142
+   },
+   "S_ok": true,
+   "S": 0.05646320391937018,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3263,
+   "posts_min": 292,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.41379310344827586
+   },
+   "S_ok": true,
+   "S": 0.29143498119671357,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 27,
+   "words_min": 3263,
+   "posts_min": 292,
+   "I_ok": true,
+   "I": {
+    "recurrence": 8.0,
+    "regularity": -0.6279806027272207,
+    "alternation": 1.0,
+    "simultaneity": 4.11764705882353
+   },
+   "S_ok": true,
+   "S": 0.28915042830913057,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4158,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.1594202898550725
+   },
+   "S_ok": true,
+   "S": 0.4628803486392709,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 8,
+   "words_min": 4158,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.43495082843796495,
+    "alternation": 1.0,
+    "simultaneity": 0.7692307692307692
+   },
+   "S_ok": true,
+   "S": 0.4328209993885117,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 4158,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.27525490944093733,
+    "alternation": 1.0,
+    "simultaneity": 0.9677419354838709
+   },
+   "S_ok": true,
+   "S": 0.3597544747238301,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 20,
+   "words_min": 4158,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 7.0,
+    "regularity": -0.3994948084635787,
+    "alternation": 1.0,
+    "simultaneity": 1.6666666666666665
+   },
+   "S_ok": true,
+   "S": 0.48191334748200515,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4158,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.38349191190155724,
+    "alternation": 1.0,
+    "simultaneity": 1.3333333333333333
+   },
+   "S_ok": true,
+   "S": 0.33898230050987277,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4887,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.3333333333333333,
+    "simultaneity": 0.5504587155963303
+   },
+   "S_ok": true,
+   "S": 0.4872879907643171,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4887,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.14285714285714285,
+    "simultaneity": 1.1764705882352942
+   },
+   "S_ok": true,
+   "S": 0.16178425343765676,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3121,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.25
+   },
+   "S_ok": true,
+   "S": 0.04921633320347638,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 11,
+   "words_min": 5269,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.31119247235780934,
+    "alternation": 0.6111111111111112,
+    "simultaneity": 1.1702127659574468
+   },
+   "S_ok": true,
+   "S": 0.27228118598355006,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 1579,
+   "posts_min": 302,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.2900683074369264,
+    "alternation": 1.0,
+    "simultaneity": 1.6831683168316833
+   },
+   "S_ok": true,
+   "S": -0.03369512507356706,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 1579,
+   "posts_min": 302,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.4070535831997753,
+    "alternation": 1.0,
+    "simultaneity": 1.1382113821138211
+   },
+   "S_ok": true,
+   "S": 0.0844617358378123,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 1579,
+   "posts_min": 302,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.44502866418921544,
+    "alternation": 1.0,
+    "simultaneity": 1.5028901734104045
+   },
+   "S_ok": true,
+   "S": -0.09916484258559274,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 141,
+   "posts_min": 11,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.8
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 65,
+   "words_min": 4387,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 12.0,
+    "regularity": -0.6622811769949801,
+    "alternation": 0.9264705882352942,
+    "simultaneity": 1.2213740458015268
+   },
+   "S_ok": true,
+   "S": 0.27683441576353174,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 1915,
+   "posts_min": 143,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.5
+   },
+   "S_ok": true,
+   "S": 0.16896964999392802,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 7216,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 6.0,
+    "regularity": -0.42454301609969175,
+    "alternation": 0.6363636363636364,
+    "simultaneity": 1.25
+   },
+   "S_ok": true,
+   "S": 0.18926481329393313,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 7216,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.3970760234666136,
+    "alternation": 0.8333333333333334,
+    "simultaneity": 2.0224719101123596
+   },
+   "S_ok": true,
+   "S": 0.10831998063217725,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3266,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.4035087719298245
+   },
+   "S_ok": true,
+   "S": 0.2605914874483775,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 6841,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.1645021645021645
+   },
+   "S_ok": true,
+   "S": 0.3493781199953269,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3869,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.769230769230769
+   },
+   "S_ok": true,
+   "S": 0.35189117286735916,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4243,
+   "posts_min": 265,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.21501943242404842,
+    "alternation": 0.6,
+    "simultaneity": 1.0
+   },
+   "S_ok": true,
+   "S": 0.0567598118710201,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4526,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.348314606741573
+   },
+   "S_ok": true,
+   "S": 0.12943313177697524,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4526,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.18181818181818182,
+    "simultaneity": 3.1007751937984493
+   },
+   "S_ok": true,
+   "S": 0.27716219111391543,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 6384,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.4904648083827392,
+    "alternation": 1.0,
+    "simultaneity": 1.306532663316583
+   },
+   "S_ok": true,
+   "S": 0.4301016622409299,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 6384,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.44630375203612943,
+    "alternation": 0.8333333333333334,
+    "simultaneity": 1.8357487922705316
+   },
+   "S_ok": true,
+   "S": 0.33686796165678934,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 24,
+   "words_min": 5573,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 10.0,
+    "regularity": -0.769753912444332,
+    "alternation": 1.0,
+    "simultaneity": 1.9607843137254903
+   },
+   "S_ok": true,
+   "S": 0.4591229198263815,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 16,
+   "words_min": 5573,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.7470516699884675,
+    "alternation": 1.0,
+    "simultaneity": 1.5384615384615383
+   },
+   "S_ok": true,
+   "S": 0.28962821287798485,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 2470,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.6779661016949152
+   },
+   "S_ok": true,
+   "S": 0.2700269518595888,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 2470,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.4285714285714286
+   },
+   "S_ok": true,
+   "S": 0.19585153763426455,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 11,
+   "words_min": 5883,
+   "posts_min": 301,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.4961961673144716,
+    "alternation": 1.0,
+    "simultaneity": 0.9756097560975611
+   },
+   "S_ok": true,
+   "S": 0.4024521473040108,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 16,
+   "words_min": 5883,
+   "posts_min": 301,
+   "I_ok": true,
+   "I": {
+    "recurrence": 10.0,
+    "regularity": -0.42840320993609154,
+    "alternation": 1.0,
+    "simultaneity": 2.2222222222222223
+   },
+   "S_ok": true,
+   "S": 0.3574439038378512,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 6491,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.18518518518518517
+   },
+   "S_ok": true,
+   "S": 0.26100241606935054,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 6734,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.25,
+    "simultaneity": 0.5263157894736842
+   },
+   "S_ok": true,
+   "S": 0.32861828901249757,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 11,
+   "words_min": 2998,
+   "posts_min": 301,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.7600195284172585,
+    "alternation": 0.6190476190476191,
+    "simultaneity": 2.9126213592233006
+   },
+   "S_ok": true,
+   "S": 0.2025885218100839,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 2395,
+   "posts_min": 302,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.5263157894736842
+   },
+   "S_ok": true,
+   "S": 0.009699857828367832,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 25,
+   "words_min": 3275,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.5112499268958548,
+    "alternation": 0.9230769230769231,
+    "simultaneity": 2.73972602739726
+   },
+   "S_ok": true,
+   "S": 0.2881276128422675,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 76,
+   "words_min": 3275,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 11.0,
+    "regularity": -0.5711032483479687,
+    "alternation": 0.8987341772151899,
+    "simultaneity": 0.96
+   },
+   "S_ok": true,
+   "S": 0.3139599765438894,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 3009,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.6987270141758877,
+    "alternation": 0.6923076923076923,
+    "simultaneity": 1.0666666666666667
+   },
+   "S_ok": true,
+   "S": 0.11781689040739142,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 6356,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.8644067796610169
+   },
+   "S_ok": true,
+   "S": 0.4617414034059829,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 7,
+   "posts_min": 2,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 10,
+   "words_min": 6356,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.44260170091038314,
+    "alternation": 0.75,
+    "simultaneity": 1.0101010101010102
+   },
+   "S_ok": true,
+   "S": 0.34510428279602834,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 7912,
+   "posts_min": 302,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.311557788944724
+   },
+   "S_ok": true,
+   "S": 0.13687288362543404,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 7912,
+   "posts_min": 302,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.7692307692307693
+   },
+   "S_ok": true,
+   "S": 0.14671978744575123,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 5207,
+   "posts_min": 299,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5763262007770328,
+    "alternation": 0.1875,
+    "simultaneity": 1.0619469026548671
+   },
+   "S_ok": true,
+   "S": 0.10867094762384129,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 7307,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.3521993816356635,
+    "alternation": 0.75,
+    "simultaneity": 0.8219178082191781
+   },
+   "S_ok": true,
+   "S": 0.3919552690344395,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5795,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.8333333333333334
+   },
+   "S_ok": true,
+   "S": 0.2679208372614624,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 4992,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.6756138244735737,
+    "alternation": 0.9,
+    "simultaneity": 1.25
+   },
+   "S_ok": true,
+   "S": 0.3384757636860856,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 6204,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.48387096774193544
+   },
+   "S_ok": true,
+   "S": 0.3032114218595242,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 1859,
+   "posts_min": 302,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.4202595671477846,
+    "alternation": 0.5,
+    "simultaneity": 1.7647058823529411
+   },
+   "S_ok": true,
+   "S": -0.12992631611119532,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3462,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.3333333333333333,
+    "simultaneity": 3.111111111111111
+   },
+   "S_ok": true,
+   "S": 0.17034730236916112,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5205,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.8823529411764706
+   },
+   "S_ok": true,
+   "S": 0.08395243397366879,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 5205,
+   "posts_min": 301,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.537273104238715,
+    "alternation": 1.0,
+    "simultaneity": 1.976284584980237
+   },
+   "S_ok": true,
+   "S": 0.09871446855818095,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 24,
+   "posts_min": 3,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.6088134065803563,
+    "alternation": 1.0,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 618,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.2597402597402597
+   },
+   "S_ok": true,
+   "S": -0.07548106739571067,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4100,
+   "posts_min": 299,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.8
+   },
+   "S_ok": true,
+   "S": 0.04221357527290404,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4270,
+   "posts_min": 299,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.8695652173913043
+   },
+   "S_ok": true,
+   "S": 0.15278490739613584,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 52,
+   "posts_min": 3,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.0
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 31,
+   "words_min": 4256,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 14.0,
+    "regularity": -0.6057608340614153,
+    "alternation": 0.9375,
+    "simultaneity": 0.6896551724137931
+   },
+   "S_ok": true,
+   "S": 0.19645933781572628,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 34,
+   "words_min": 4256,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 20.0,
+    "regularity": -0.63082036441017,
+    "alternation": 0.8974358974358975,
+    "simultaneity": 1.3114754098360657
+   },
+   "S_ok": true,
+   "S": 0.17289679442300257,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 68,
+   "posts_min": 5,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.49209242916532137,
+    "alternation": 0.2,
+    "simultaneity": 1.0
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3744,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.3821656050955414
+   },
+   "S_ok": true,
+   "S": -0.09062114718586178,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 247,
+   "posts_min": 8,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.02857142857142857,
+    "simultaneity": 1.0
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 10628,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.4864864864864864
+   },
+   "S_ok": true,
+   "S": 0.2435757461169902,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 11295,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.6176470588235294
+   },
+   "S_ok": true,
+   "S": 0.3631590929009279,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 1460,
+   "posts_min": 81,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.4826179687349096,
+    "alternation": 0.8333333333333334,
+    "simultaneity": 2.962962962962963
+   },
+   "S_ok": true,
+   "S": -0.04812301620132836,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 4230,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.4347510491713007,
+    "alternation": 0.7142857142857143,
+    "simultaneity": 1.6494845360824744
+   },
+   "S_ok": true,
+   "S": 0.3196350104943827,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 4230,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.3200739928633713,
+    "alternation": 1.0,
+    "simultaneity": 1.081081081081081
+   },
+   "S_ok": true,
+   "S": 0.23076392822587735,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4230,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.12
+   },
+   "S_ok": true,
+   "S": 0.2853831373305818,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 12,
+   "words_min": 5642,
+   "posts_min": 303,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.4037678189471854,
+    "alternation": 0.8571428571428571,
+    "simultaneity": 3.111111111111111
+   },
+   "S_ok": true,
+   "S": 0.19001199184900502,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 7056,
+   "posts_min": 303,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.5390990377943274,
+    "alternation": 1.0,
+    "simultaneity": 1.0
+   },
+   "S_ok": true,
+   "S": 0.4261531143977078,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3610,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.6666666666666666,
+    "simultaneity": 2.4615384615384617
+   },
+   "S_ok": true,
+   "S": 0.2535931686339507,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3610,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.4634146341463417
+   },
+   "S_ok": true,
+   "S": 0.15763192389547986,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 5557,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.2640580228667026,
+    "alternation": 0.5454545454545454,
+    "simultaneity": 1.0126582278481011
+   },
+   "S_ok": true,
+   "S": 0.14968196215220764,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4312,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.9523809523809523
+   },
+   "S_ok": true,
+   "S": 0.31924523077997163,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 4657,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.5710792710179612,
+    "alternation": 1.0,
+    "simultaneity": 1.923076923076923
+   },
+   "S_ok": true,
+   "S": 0.42340976151277954,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 4657,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.5165954468917262,
+    "alternation": 1.0,
+    "simultaneity": 0.8275862068965517
+   },
+   "S_ok": true,
+   "S": 0.41234587695390423,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 4657,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.6440304806481085,
+    "alternation": 1.0,
+    "simultaneity": 2.0289855072463765
+   },
+   "S_ok": true,
+   "S": 0.30279179964922853,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4657,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 1.0,
+    "simultaneity": 1.8518518518518516
+   },
+   "S_ok": true,
+   "S": 0.48093942350924923,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4657,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.5714285714285714
+   },
+   "S_ok": true,
+   "S": 0.3649432984932701,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 2158,
+   "posts_min": 303,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.21182485756807679,
+    "alternation": 1.0,
+    "simultaneity": 2.931937172774869
+   },
+   "S_ok": true,
+   "S": 0.19338900521378766,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 19,
+   "words_min": 5160,
+   "posts_min": 303,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.35110156641216794,
+    "alternation": 0.9047619047619048,
+    "simultaneity": 1.78343949044586
+   },
+   "S_ok": true,
+   "S": 0.18616797923865522,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5248,
+   "posts_min": 302,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.3529411764705883
+   },
+   "S_ok": true,
+   "S": 0.18743170998504605,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 2628,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.209944751381215
+   },
+   "S_ok": true,
+   "S": 0.09113253185100517,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 2628,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.9387755102040816
+   },
+   "S_ok": true,
+   "S": -0.01133564142585242,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 10,
+   "words_min": 8285,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 5.0,
+    "regularity": -0.6005922788660919,
+    "alternation": 1.0,
+    "simultaneity": 1.2698412698412698
+   },
+   "S_ok": true,
+   "S": 0.27929552990197865,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 8285,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.7228915662650601
+   },
+   "S_ok": true,
+   "S": 0.17146385348782495,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4373,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.9069990700368168,
+    "alternation": 1.0,
+    "simultaneity": 1.9047619047619047
+   },
+   "S_ok": true,
+   "S": 0.05591083359092862,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 1889,
+   "posts_min": 220,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.5882352941176471
+   },
+   "S_ok": true,
+   "S": 0.07770588447790018,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4685,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.3967742119433843,
+    "alternation": 1.0,
+    "simultaneity": 1.5517241379310345
+   },
+   "S_ok": true,
+   "S": 0.39648321757362276,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4685,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.3937282229965158
+   },
+   "S_ok": true,
+   "S": 0.4822936264495288,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 22,
+   "words_min": 4113,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.5834401656995865,
+    "alternation": 1.0,
+    "simultaneity": 1.8644067796610169
+   },
+   "S_ok": true,
+   "S": 0.3288489723650833,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 45,
+   "words_min": 4113,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 20.0,
+    "regularity": -0.6380505141505985,
+    "alternation": 0.9777777777777777,
+    "simultaneity": 1.797752808988764
+   },
+   "S_ok": true,
+   "S": 0.30831156873802407,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 83,
+   "posts_min": 3,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.6666666666666666,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 83,
+   "posts_min": 3,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.292456068413277,
+    "alternation": 0.6,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 3553,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.5008520535823645,
+    "alternation": 1.0,
+    "simultaneity": 1.6666666666666665
+   },
+   "S_ok": true,
+   "S": 0.20524381560534838,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4052,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.989010989010989
+   },
+   "S_ok": true,
+   "S": 0.0799293155228391,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 4271,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.34943507996664824,
+    "alternation": 0.6,
+    "simultaneity": 1.5384615384615385
+   },
+   "S_ok": true,
+   "S": 0.3150241921354614,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 5420,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.9444444444444444
+   },
+   "S_ok": true,
+   "S": 0.24289595323787005,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 4593,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.6022751546425669,
+    "alternation": 0.6666666666666666,
+    "simultaneity": 0.9090909090909091
+   },
+   "S_ok": true,
+   "S": 0.2894066183808308,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 2872,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.6488646425175103,
+    "alternation": 1.0,
+    "simultaneity": 1.5254237288135593
+   },
+   "S_ok": true,
+   "S": 0.1189014385347252,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 6510,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.7695855989604178,
+    "alternation": 1.0,
+    "simultaneity": 1.8367346938775508
+   },
+   "S_ok": true,
+   "S": 0.31224685960862947,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 5128,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.5441783114800651,
+    "alternation": 1.0,
+    "simultaneity": 1.7094017094017095
+   },
+   "S_ok": true,
+   "S": 0.28939681428778563,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 9675,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.6663639236405756,
+    "alternation": 1.0,
+    "simultaneity": 0.45454545454545453
+   },
+   "S_ok": true,
+   "S": 0.2782016515312447,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 25,
+   "words_min": 4530,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 11.0,
+    "regularity": -0.7179741684949337,
+    "alternation": 0.96,
+    "simultaneity": 1.6129032258064515
+   },
+   "S_ok": true,
+   "S": 0.43859595085130626,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 6680,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.8823529411764706
+   },
+   "S_ok": true,
+   "S": 0.21416155700127398,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 5252,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.10376643884516967,
+    "alternation": 1.0,
+    "simultaneity": 2.1052631578947367
+   },
+   "S_ok": true,
+   "S": 0.36285531872034255,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 3828,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.3098462725992142,
+    "alternation": 1.0,
+    "simultaneity": 0.7407407407407408
+   },
+   "S_ok": true,
+   "S": 0.2746711460569366,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 1765,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.5917790780983013,
+    "alternation": 0.8181818181818182,
+    "simultaneity": 1.4705882352941178
+   },
+   "S_ok": true,
+   "S": 0.10662257540734518,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3686,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.044776119402985
+   },
+   "S_ok": true,
+   "S": 0.18713634302303545,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 1761,
+   "posts_min": 273,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5695034463442933,
+    "alternation": 1.0,
+    "simultaneity": 2.736842105263158
+   },
+   "S_ok": true,
+   "S": 0.04801922793734706,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4930,
+   "posts_min": 305,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.1822660098522166
+   },
+   "S_ok": true,
+   "S": 0.2727165695702189,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 3074,
+   "posts_min": 301,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.42983707973940866,
+    "alternation": 1.0,
+    "simultaneity": 0.8219178082191781
+   },
+   "S_ok": true,
+   "S": -0.014070106479182845,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 4007,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5032071902745195,
+    "alternation": 1.0,
+    "simultaneity": 1.2612612612612613
+   },
+   "S_ok": true,
+   "S": 0.1567741389770887,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 6730,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.8163265306122448
+   },
+   "S_ok": true,
+   "S": 0.3656323677536509,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 1065,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.434504745163838,
+    "alternation": 1.0,
+    "simultaneity": 0.689655172413793
+   },
+   "S_ok": true,
+   "S": -0.07077029180473357,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 5650,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.0169491525423728
+   },
+   "S_ok": true,
+   "S": 0.19406525231749586,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4492,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.1428571428571428
+   },
+   "S_ok": true,
+   "S": 0.2896887072933949,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3492,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.6015037593984962
+   },
+   "S_ok": true,
+   "S": 0.19536358108599783,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 3923,
+   "posts_min": 180,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.2467843606141698,
+    "alternation": 1.0,
+    "simultaneity": 2.0155038759689923
+   },
+   "S_ok": true,
+   "S": 0.3839141385152553,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5040,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.5384615384615383
+   },
+   "S_ok": true,
+   "S": 0.4253312519938069,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4374,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.1590909090909087
+   },
+   "S_ok": true,
+   "S": 0.1786684817040156,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 1651,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.7860262008733625
+   },
+   "S_ok": true,
+   "S": -0.07286964847543514,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 6375,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.275261017923808,
+    "alternation": 1.0,
+    "simultaneity": 1.6666666666666665
+   },
+   "S_ok": true,
+   "S": 0.5425255242191104,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 4326,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.654196991660754,
+    "alternation": 1.0,
+    "simultaneity": 2.5
+   },
+   "S_ok": true,
+   "S": 0.03572644032963569,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4763,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.295081967213115
+   },
+   "S_ok": true,
+   "S": 0.2924368931111621,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 5094,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.5947229875699507,
+    "alternation": 1.0,
+    "simultaneity": 1.2359550561797752
+   },
+   "S_ok": true,
+   "S": 0.26389424436394154,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 5131,
+   "posts_min": 303,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.4984875906742658,
+    "alternation": 1.0,
+    "simultaneity": 1.798941798941799
+   },
+   "S_ok": true,
+   "S": 0.23149007690229292,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4803,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.791044776119403
+   },
+   "S_ok": true,
+   "S": 0.2622200131706469,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3903,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.5172413793103449
+   },
+   "S_ok": true,
+   "S": 0.028118366742003964,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3118,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.0754716981132075
+   },
+   "S_ok": true,
+   "S": 0.20113143029441144,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 2563,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.29846180857944443,
+    "alternation": 1.0,
+    "simultaneity": 2.197802197802198
+   },
+   "S_ok": true,
+   "S": -0.08954757166625398,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 5053,
+   "posts_min": 299,
+   "I_ok": false,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.510220020138197,
+    "alternation": 0.42857142857142855,
+    "simultaneity": 2.0408163265306123
+   },
+   "S_ok": true,
+   "S": 0.2619613947860858,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 32,
+   "words_min": 2346,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 11.0,
+    "regularity": -0.5996910040540008,
+    "alternation": 0.775,
+    "simultaneity": 0.5555555555555556
+   },
+   "S_ok": true,
+   "S": -0.013557277846675372,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 6937,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.3417575665781454,
+    "alternation": 1.0,
+    "simultaneity": 0.4166666666666667
+   },
+   "S_ok": true,
+   "S": 0.3656061277281461,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4555,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.48373005842954286,
+    "alternation": 1.0,
+    "simultaneity": 1.2121212121212122
+   },
+   "S_ok": true,
+   "S": 0.1502150410059004,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3032,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.6091954022988506
+   },
+   "S_ok": true,
+   "S": 0.22520883828801821,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 3553,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.6998797305031522,
+    "alternation": 1.0,
+    "simultaneity": 0.6451612903225806
+   },
+   "S_ok": true,
+   "S": 0.19075221788012,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 3553,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.6776427774603992,
+    "alternation": 0.8888888888888888,
+    "simultaneity": 2.0512820512820515
+   },
+   "S_ok": true,
+   "S": 0.20047025659920162,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 18,
+   "words_min": 3553,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 8.0,
+    "regularity": -0.5720397338337252,
+    "alternation": 0.9473684210526315,
+    "simultaneity": 1.6842105263157894
+   },
+   "S_ok": true,
+   "S": 0.24555786120919554,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 3553,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.11020384809146357,
+    "alternation": 1.0,
+    "simultaneity": 1.1111111111111112
+   },
+   "S_ok": true,
+   "S": 0.07381310532939636,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 59,
+   "posts_min": 2,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 2443,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.5714285714285714
+   },
+   "S_ok": true,
+   "S": 0.058573959688640355,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 2443,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.7475728155339805
+   },
+   "S_ok": true,
+   "S": 0.0720116335996166,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4052,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.6036775216514189,
+    "alternation": 1.0,
+    "simultaneity": 3.411764705882353
+   },
+   "S_ok": true,
+   "S": 0.1455569040228429,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 8,
+   "words_min": 4271,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.3716688175252916,
+    "alternation": 1.0,
+    "simultaneity": 1.1940298507462686
+   },
+   "S_ok": true,
+   "S": 0.2942386178489309,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 4271,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.38603455920822355,
+    "alternation": 1.0,
+    "simultaneity": 1.875
+   },
+   "S_ok": true,
+   "S": 0.282124963636361,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 22,
+   "words_min": 4271,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 10.0,
+    "regularity": -0.4709403226300962,
+    "alternation": 1.0,
+    "simultaneity": 1.5555555555555556
+   },
+   "S_ok": true,
+   "S": 0.2504039227311383,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 64,
+   "posts_min": 2,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.3333333333333333,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 5492,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.3333333333333333,
+    "simultaneity": 1.7857142857142858
+   },
+   "S_ok": true,
+   "S": 0.27982555887362637,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 91,
+   "posts_min": 3,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.0
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5292,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.7142857142857143
+   },
+   "S_ok": true,
+   "S": 0.16069210158561864,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 4488,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -1.2338087182700779,
+    "alternation": 0.75,
+    "simultaneity": 1.2121212121212122
+   },
+   "S_ok": true,
+   "S": 0.2629089034282293,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 39,
+   "posts_min": 2,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.125,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 3316,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5397586357484091,
+    "alternation": 0.7777777777777778,
+    "simultaneity": 3.1007751937984493
+   },
+   "S_ok": true,
+   "S": 0.09021516245861019,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 15,
+   "posts_min": 2,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 32,
+   "words_min": 8237,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 6.0,
+    "regularity": -0.5663738802068441,
+    "alternation": 0.4523809523809524,
+    "simultaneity": 0.6976744186046512
+   },
+   "S_ok": true,
+   "S": 0.30522759205079514,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4789,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.47619047619047616
+   },
+   "S_ok": true,
+   "S": 0.37626017507162196,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 53,
+   "posts_min": 2,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.3333333333333333,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 2801,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.9230769230769231
+   },
+   "S_ok": true,
+   "S": 0.14702897959980335,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 13,
+   "words_min": 2801,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.3432565658067889,
+    "alternation": 0.9285714285714286,
+    "simultaneity": 0.7272727272727273
+   },
+   "S_ok": true,
+   "S": 0.30261463549628237,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 24,
+   "words_min": 4464,
+   "posts_min": 299,
+   "I_ok": true,
+   "I": {
+    "recurrence": 6.0,
+    "regularity": -0.6847562171568904,
+    "alternation": 0.96,
+    "simultaneity": 2.9223744292237446
+   },
+   "S_ok": true,
+   "S": 0.337349302844066,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4593,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.9356157629079221,
+    "alternation": 1.0,
+    "simultaneity": 0.7058823529411765
+   },
+   "S_ok": true,
+   "S": 0.27822120843797754,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 2004,
+   "posts_min": 218,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.7647058823529411
+   },
+   "S_ok": true,
+   "S": 0.20073637913970618,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 19,
+   "words_min": 1526,
+   "posts_min": 107,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.6383522843430033,
+    "alternation": 1.0,
+    "simultaneity": 1.25
+   },
+   "S_ok": true,
+   "S": 0.30068445885859263,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 7528,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.935672514619883
+   },
+   "S_ok": true,
+   "S": 0.5098442806918704,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 2862,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.0843373493975903
+   },
+   "S_ok": true,
+   "S": -0.07468879158817503,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 3206,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.40645019095475476,
+    "alternation": 1.0,
+    "simultaneity": 2.3529411764705883
+   },
+   "S_ok": true,
+   "S": 0.2783254359963388,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3206,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.8695652173913044
+   },
+   "S_ok": true,
+   "S": 0.18141647509200556,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 25,
+   "posts_min": 2,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4715,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.3008130081300813
+   },
+   "S_ok": true,
+   "S": 0.43438150422578764,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 11,
+   "words_min": 7417,
+   "posts_min": 301,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.2074110167728627,
+    "alternation": 0.7857142857142857,
+    "simultaneity": 1.8604651162790697
+   },
+   "S_ok": true,
+   "S": 0.4596715991474945,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3258,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.8556701030927836
+   },
+   "S_ok": true,
+   "S": 0.13503110300218338,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 4911,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.6649624829203515,
+    "alternation": 0.6666666666666666,
+    "simultaneity": 1.5384615384615385
+   },
+   "S_ok": true,
+   "S": 0.14634115192855893,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 11,
+   "words_min": 4911,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 8.0,
+    "regularity": -0.5009326823565148,
+    "alternation": 0.6470588235294118,
+    "simultaneity": 1.7543859649122806
+   },
+   "S_ok": true,
+   "S": 0.22428817038670973,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 1147,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.5,
+    "simultaneity": 2.1311475409836067
+   },
+   "S_ok": true,
+   "S": 0.15384566201527283,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 5317,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.4814814814814814
+   },
+   "S_ok": true,
+   "S": 0.290504272733202,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 26,
+   "posts_min": 2,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4248,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.5030992980721164,
+    "alternation": 1.0,
+    "simultaneity": 2.7450980392156863
+   },
+   "S_ok": true,
+   "S": 0.004940616684849842,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 6601,
+   "posts_min": 301,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.587725811006673,
+    "alternation": 0.8571428571428571,
+    "simultaneity": 1.978021978021978
+   },
+   "S_ok": true,
+   "S": 0.06151270207001172,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 7691,
+   "posts_min": 314,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.6666666666666666,
+    "simultaneity": 1.3612565445026177
+   },
+   "S_ok": true,
+   "S": 0.31529132554254385,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 7691,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.40672926668395365,
+    "alternation": 0.5,
+    "simultaneity": 1.5929203539823007
+   },
+   "S_ok": true,
+   "S": 0.35986654550768926,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 12,
+   "words_min": 4328,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.2924471221779744,
+    "alternation": 0.5882352941176471,
+    "simultaneity": 3.3962264150943398
+   },
+   "S_ok": true,
+   "S": 0.33942072394855904,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 1775,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.3529411764705883
+   },
+   "S_ok": true,
+   "S": 0.05596470832097181,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 2656,
+   "posts_min": 301,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.49098432371682355,
+    "alternation": 1.0,
+    "simultaneity": 1.7857142857142858
+   },
+   "S_ok": true,
+   "S": -0.025941057645554728,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 2656,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.2,
+    "simultaneity": 0.7407407407407407
+   },
+   "S_ok": true,
+   "S": 0.2841721546084451,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 18,
+   "posts_min": 2,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 8499,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.6666666666666666,
+    "simultaneity": 17.101449275362317
+   },
+   "S_ok": true,
+   "S": 0.12293672943163343,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 2343,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.7160493827160495
+   },
+   "S_ok": true,
+   "S": -0.04497024956381054,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 2343,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.14465894449950045,
+    "alternation": 1.0,
+    "simultaneity": 1.1864406779661016
+   },
+   "S_ok": true,
+   "S": -0.12595115651748492,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5683,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.4285714285714286
+   },
+   "S_ok": true,
+   "S": 0.3921162242243982,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 5683,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.3118681573159311,
+    "alternation": 0.8333333333333334,
+    "simultaneity": 3.0
+   },
+   "S_ok": true,
+   "S": 0.4121200666584793,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 2872,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.2598425196850394
+   },
+   "S_ok": true,
+   "S": 0.21852136321294893,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 2872,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.528735632183908
+   },
+   "S_ok": true,
+   "S": 0.06282702714221532,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 6510,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.1882996558748793,
+    "alternation": 1.0,
+    "simultaneity": 1.4666666666666666
+   },
+   "S_ok": true,
+   "S": 0.304690454127586,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 18,
+   "words_min": 6510,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.635782979161086,
+    "alternation": 0.9473684210526315,
+    "simultaneity": 1.5384615384615383
+   },
+   "S_ok": true,
+   "S": 0.3195079233718734,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 8,
+   "words_min": 6510,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.4591939919337849,
+    "alternation": 0.8,
+    "simultaneity": 1.1235955056179774
+   },
+   "S_ok": true,
+   "S": 0.3160466736425209,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 247,
+   "posts_min": 8,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.5156200875265291,
+    "alternation": 0.5,
+    "simultaneity": 1.0
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 88,
+   "posts_min": 4,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.6920038608679115,
+    "alternation": 0.625,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 48,
+   "posts_min": 4,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.5337529336908742,
+    "alternation": 1.0,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 11,
+   "words_min": 3415,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.5254769440730153,
+    "alternation": 1.0,
+    "simultaneity": 2.5
+   },
+   "S_ok": true,
+   "S": 0.1821427224389982,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 13,
+   "posts_min": 4,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.9523809523809523
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 59,
+   "words_min": 1614,
+   "posts_min": 275,
+   "I_ok": true,
+   "I": {
+    "recurrence": 18.0,
+    "regularity": -0.6647401064643885,
+    "alternation": 0.9833333333333333,
+    "simultaneity": 0.9523809523809523
+   },
+   "S_ok": true,
+   "S": 0.12666783196676742,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5128,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.7909604519774012
+   },
+   "S_ok": true,
+   "S": 0.18798873562172697,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 6912,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.6069843105663545,
+    "alternation": 0.8333333333333334,
+    "simultaneity": 2.393162393162393
+   },
+   "S_ok": true,
+   "S": 0.3500197892756382,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 14,
+   "words_min": 4627,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 8.0,
+    "regularity": -0.8136153915045815,
+    "alternation": 0.875,
+    "simultaneity": 1.1111111111111112
+   },
+   "S_ok": true,
+   "S": 0.05505490782769491,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 541,
+   "posts_min": 43,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.5806893648468154,
+    "alternation": 1.0,
+    "simultaneity": 1.0
+   },
+   "S_ok": true,
+   "S": 0.10171732562575835,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 15,
+   "words_min": 5892,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 5.0,
+    "regularity": -0.5165339699232329,
+    "alternation": 1.0,
+    "simultaneity": 0.9259259259259258
+   },
+   "S_ok": true,
+   "S": 0.40189904830708506,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 52,
+   "words_min": 4530,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 22.0,
+    "regularity": -0.5864742636299639,
+    "alternation": 0.9090909090909091,
+    "simultaneity": 1.0778443113772456
+   },
+   "S_ok": true,
+   "S": 0.4208209822314049,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 27,
+   "words_min": 11825,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.5506469567601144,
+    "alternation": 1.0,
+    "simultaneity": 1.4666666666666666
+   },
+   "S_ok": true,
+   "S": 0.33551765307904985,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 25,
+   "words_min": 5292,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 5.0,
+    "regularity": -0.576740399592226,
+    "alternation": 1.0,
+    "simultaneity": 2.608695652173913
+   },
+   "S_ok": true,
+   "S": 0.0641486017067545,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 12,
+   "words_min": 7807,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.44468332703852254,
+    "alternation": 1.0,
+    "simultaneity": 2.0289855072463765
+   },
+   "S_ok": true,
+   "S": 0.40093703153582116,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 3828,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.42639904483712954,
+    "alternation": 0.9,
+    "simultaneity": 0.8602150537634408
+   },
+   "S_ok": true,
+   "S": 0.3246749709850815,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 15,
+   "words_min": 1765,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.6607031706613707,
+    "alternation": 0.9375,
+    "simultaneity": 1.4141414141414141
+   },
+   "S_ok": true,
+   "S": 0.11750471166966873,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 5009,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.34505513063936516,
+    "alternation": 1.0,
+    "simultaneity": 0.7874015748031497
+   },
+   "S_ok": true,
+   "S": 0.27004723234142136,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 3534,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.6905145969325788,
+    "alternation": 1.0,
+    "simultaneity": 1.8181818181818183
+   },
+   "S_ok": true,
+   "S": 0.25686763313270006,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 1065,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.4877553992852964,
+    "alternation": 1.0,
+    "simultaneity": 0.9900990099009901
+   },
+   "S_ok": true,
+   "S": -0.08166345095192667,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3492,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.6944444444444444
+   },
+   "S_ok": true,
+   "S": 0.20180140795659676,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 2751,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.561329339117341,
+    "alternation": 1.0,
+    "simultaneity": 1.0526315789473684
+   },
+   "S_ok": true,
+   "S": 0.10271045238106631,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 5040,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.2695186028343528,
+    "alternation": 1.0,
+    "simultaneity": 1.019108280254777
+   },
+   "S_ok": true,
+   "S": 0.4449071116293354,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 896,
+   "posts_min": 73,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.5405721993048108,
+    "alternation": 1.0,
+    "simultaneity": 0.7692307692307692
+   },
+   "S_ok": true,
+   "S": 0.16189671716455128,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 1651,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.33458898963191164,
+    "alternation": 0.8571428571428571,
+    "simultaneity": 1.9047619047619049
+   },
+   "S_ok": true,
+   "S": -0.06924121216049309,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4429,
+   "posts_min": 302,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.6184971098265895
+   },
+   "S_ok": true,
+   "S": 0.24645304396846246,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 9450,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.5,
+    "simultaneity": 0.8080808080808081
+   },
+   "S_ok": true,
+   "S": 0.42779211824324814,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 14,
+   "words_min": 3815,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.795485013929733,
+    "alternation": 1.0,
+    "simultaneity": 0.6896551724137931
+   },
+   "S_ok": true,
+   "S": 0.165756690731571,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 55,
+   "words_min": 3484,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 22.0,
+    "regularity": -0.6406645231870793,
+    "alternation": 1.0,
+    "simultaneity": 0.6756756756756757
+   },
+   "S_ok": true,
+   "S": 0.21312199403629395,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 9865,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": null,
+    "alternation": 0.3333333333333333,
+    "simultaneity": 2.3776223776223775
+   },
+   "S_ok": true,
+   "S": 0.08660489506295384,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 4763,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.4359465362468055,
+    "alternation": 1.0,
+    "simultaneity": 1.8181818181818183
+   },
+   "S_ok": true,
+   "S": 0.2981266824858439,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 5863,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.7201366003497695,
+    "alternation": 1.0,
+    "simultaneity": 0.7228915662650601
+   },
+   "S_ok": true,
+   "S": 0.3695672562784226,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 43,
+   "words_min": 2065,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 12.0,
+    "regularity": -0.5802143129165227,
+    "alternation": 1.0,
+    "simultaneity": 2.3255813953488373
+   },
+   "S_ok": true,
+   "S": 0.23934669049334914,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 3118,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.8176802958096114,
+    "alternation": 1.0,
+    "simultaneity": 1.1612903225806452
+   },
+   "S_ok": true,
+   "S": 0.2101626926718272,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 14,
+   "words_min": 2563,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.508663961993788,
+    "alternation": 1.0,
+    "simultaneity": 1.9626168224299068
+   },
+   "S_ok": true,
+   "S": -0.07226856784548669,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 5053,
+   "posts_min": 299,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.36981723616517526,
+    "alternation": 1.0,
+    "simultaneity": 1.0389610389610389
+   },
+   "S_ok": true,
+   "S": 0.22525035519116435,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 772,
+   "posts_min": 72,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.6666666666666667
+   },
+   "S_ok": true,
+   "S": 0.17490359890407897,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 2346,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.47396024473478054,
+    "alternation": 1.0,
+    "simultaneity": 1.0126582278481011
+   },
+   "S_ok": true,
+   "S": -0.07366320760913364,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 6701,
+   "posts_min": 301,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.11841744184912939,
+    "alternation": 0.8,
+    "simultaneity": 3.144654088050314
+   },
+   "S_ok": true,
+   "S": 0.4482482881835002,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 102,
+   "words_min": 3869,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 32.0,
+    "regularity": -0.5998812305632182,
+    "alternation": 0.9174311926605505,
+    "simultaneity": 0.9259259259259258
+   },
+   "S_ok": true,
+   "S": 0.21675096263998578,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 247,
+   "posts_min": 8,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.9523809523809523
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 5803,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.47042984933766535,
+    "alternation": 1.0,
+    "simultaneity": 0.625
+   },
+   "S_ok": true,
+   "S": 0.463770221370847,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5128,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.49180327868852464
+   },
+   "S_ok": true,
+   "S": 0.27934681832612374,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 6912,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.9480908590516897,
+    "alternation": 0.75,
+    "simultaneity": 0.8163265306122448
+   },
+   "S_ok": true,
+   "S": 0.307547088594685,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 2650,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.03377974734792075,
+    "alternation": 1.0,
+    "simultaneity": 1.8840579710144927
+   },
+   "S_ok": true,
+   "S": 0.2235293402063734,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 34,
+   "words_min": 4831,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 11.0,
+    "regularity": -0.6141771594391623,
+    "alternation": 0.8378378378378378,
+    "simultaneity": 2.0689655172413794
+   },
+   "S_ok": true,
+   "S": 0.3737371452223727,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 53,
+   "words_min": 4940,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 6.0,
+    "regularity": -0.4915463442856341,
+    "alternation": 0.7647058823529411,
+    "simultaneity": 1.075268817204301
+   },
+   "S_ok": true,
+   "S": 0.1460168125203466,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 2782,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.3043478260869565
+   },
+   "S_ok": true,
+   "S": 0.041572092886019936,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 26,
+   "words_min": 4530,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 11.0,
+    "regularity": -0.6761677225898344,
+    "alternation": 0.9615384615384616,
+    "simultaneity": 1.92
+   },
+   "S_ok": true,
+   "S": 0.425831538696529,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 3485,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5673518605057051,
+    "alternation": 1.0,
+    "simultaneity": 1.1594202898550725
+   },
+   "S_ok": true,
+   "S": 0.15997072882860608,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 19,
+   "words_min": 4675,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.5860526812686303,
+    "alternation": 1.0,
+    "simultaneity": 1.1594202898550725
+   },
+   "S_ok": true,
+   "S": 0.2431054900354224,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 86,
+   "words_min": 4727,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 28.0,
+    "regularity": -0.37515894480287343,
+    "alternation": 0.9555555555555556,
+    "simultaneity": 1.3793103448275863
+   },
+   "S_ok": true,
+   "S": 0.1923938751807781,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 13,
+   "words_min": 7807,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.4451162172155601,
+    "alternation": 1.0,
+    "simultaneity": 2.2222222222222223
+   },
+   "S_ok": true,
+   "S": 0.3455571470214095,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3828,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.74496644295302
+   },
+   "S_ok": true,
+   "S": 0.25249014312587653,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 13,
+   "words_min": 1765,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.5489868172189624,
+    "alternation": 1.0,
+    "simultaneity": 1.2195121951219514
+   },
+   "S_ok": true,
+   "S": 0.04831368771035788,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 22,
+   "posts_min": 1,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 1761,
+   "posts_min": 273,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.0204081632653061
+   },
+   "S_ok": true,
+   "S": 0.06914060560349472,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 5009,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5958691599596151,
+    "alternation": 1.0,
+    "simultaneity": 1.875
+   },
+   "S_ok": true,
+   "S": 0.18112421872075044,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4930,
+   "posts_min": 305,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.4705882352941178
+   },
+   "S_ok": true,
+   "S": 0.2559979899654982,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 3534,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.5376123216126742,
+    "alternation": 1.0,
+    "simultaneity": 2.2857142857142856
+   },
+   "S_ok": true,
+   "S": 0.07943881104282416,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 3074,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.7430557618947469,
+    "alternation": 0.6666666666666666,
+    "simultaneity": 1.3756613756613758
+   },
+   "S_ok": true,
+   "S": -0.06893034859950839,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 5650,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.1398963730569949
+   },
+   "S_ok": true,
+   "S": 0.1166564273247669,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 54,
+   "words_min": 3751,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 15.0,
+    "regularity": -0.5473871073769478,
+    "alternation": 0.8059701492537313,
+    "simultaneity": 0.6896551724137931
+   },
+   "S_ok": true,
+   "S": 0.09108238268447713,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 2495,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.6615136266791104,
+    "alternation": 0.8571428571428571,
+    "simultaneity": 0.8333333333333334
+   },
+   "S_ok": true,
+   "S": -0.038376260326693695,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 2157,
+   "posts_min": 302,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.763157894736842
+   },
+   "S_ok": true,
+   "S": -0.09726393917615084,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3492,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.6611570247933884
+   },
+   "S_ok": true,
+   "S": 0.08851820165936837,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 896,
+   "posts_min": 73,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.5613798759790715,
+    "alternation": 1.0,
+    "simultaneity": 0.7142857142857143
+   },
+   "S_ok": true,
+   "S": 0.03219867051097472,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 2720,
+   "posts_min": 303,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.3414935151003905,
+    "alternation": 1.0,
+    "simultaneity": 1.5294117647058822
+   },
+   "S_ok": true,
+   "S": -0.08839653421900467,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4374,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.9138755980861246
+   },
+   "S_ok": true,
+   "S": 0.20903270198498217,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 1651,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.1428571428571428
+   },
+   "S_ok": true,
+   "S": -0.08674863139902612,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 12385,
+   "posts_min": 304,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.6666666666666666,
+    "simultaneity": 1.1374407582938388
+   },
+   "S_ok": true,
+   "S": 0.300270141764514,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 18,
+   "words_min": 6634,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.48724500149782646,
+    "alternation": 0.8181818181818182,
+    "simultaneity": 1.2222222222222223
+   },
+   "S_ok": true,
+   "S": 0.35606479025650867,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 8,
+   "words_min": 9450,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.7634347697564223,
+    "alternation": 0.6153846153846154,
+    "simultaneity": 1.0389610389610389
+   },
+   "S_ok": true,
+   "S": 0.3839269185219062,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 6375,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.2908288041019203,
+    "alternation": 1.0,
+    "simultaneity": 0.9009009009009009
+   },
+   "S_ok": true,
+   "S": 0.5358147740944574,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 46,
+   "words_min": 3484,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 10.0,
+    "regularity": -0.607059619335573,
+    "alternation": 1.0,
+    "simultaneity": 0.9803921568627452
+   },
+   "S_ok": true,
+   "S": 0.10093068580721698,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 15,
+   "words_min": 7874,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.5527796281061026,
+    "alternation": 0.9375,
+    "simultaneity": 0.9302325581395349
+   },
+   "S_ok": true,
+   "S": 0.23081662418574503,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 5019,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.0738255033557047
+   },
+   "S_ok": true,
+   "S": 0.24553472997084566,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 12,
+   "words_min": 3013,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.33337237733129593,
+    "alternation": 1.0,
+    "simultaneity": 1.509433962264151
+   },
+   "S_ok": true,
+   "S": 0.15051384290105424,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 5863,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.6625808293952155,
+    "alternation": 0.7777777777777778,
+    "simultaneity": 1.5384615384615385
+   },
+   "S_ok": true,
+   "S": 0.28214744726887664,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 46,
+   "words_min": 2065,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 14.0,
+    "regularity": -0.5202552270727926,
+    "alternation": 1.0,
+    "simultaneity": 1.1538461538461537
+   },
+   "S_ok": true,
+   "S": 0.29861346484014395,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 3118,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.3173298397895207,
+    "alternation": 1.0,
+    "simultaneity": 1.639344262295082
+   },
+   "S_ok": true,
+   "S": 0.09126472124405852,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 5053,
+   "posts_min": 299,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.09280210320316436,
+    "alternation": 1.0,
+    "simultaneity": 1.1538461538461537
+   },
+   "S_ok": true,
+   "S": 0.23157285887242815,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 10,
+   "words_min": 772,
+   "posts_min": 72,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.38979738898884814,
+    "alternation": 1.0,
+    "simultaneity": 0.9090909090909091
+   },
+   "S_ok": true,
+   "S": 0.12066107899698057,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4555,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.19174732269529482,
+    "alternation": 1.0,
+    "simultaneity": 1.1428571428571428
+   },
+   "S_ok": true,
+   "S": 0.12635803665236311,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 5331,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 5.0,
+    "regularity": -0.794368371393335,
+    "alternation": 0.8181818181818182,
+    "simultaneity": 1.5909090909090908
+   },
+   "S_ok": true,
+   "S": 0.35990722539225556,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 8,
+   "words_min": 3032,
+   "posts_min": 301,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.7227360210777205,
+    "alternation": 0.8888888888888888,
+    "simultaneity": 1.6091954022988506
+   },
+   "S_ok": true,
+   "S": 0.1753533372473526,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 34,
+   "posts_min": 1,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4396,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.4,
+    "simultaneity": 2.365591397849462
+   },
+   "S_ok": true,
+   "S": 0.450992720750198,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 103,
+   "posts_min": 4,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.14195226221988874,
+    "alternation": 0.75,
+    "simultaneity": 1.0
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5128,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.3157894736842106
+   },
+   "S_ok": true,
+   "S": 0.35573627116507206,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4627,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.6896551724137931
+   },
+   "S_ok": true,
+   "S": 0.024156746382382643,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 3917,
+   "posts_min": 302,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.5210551096952393,
+    "alternation": 1.0,
+    "simultaneity": 1.8897637795275593
+   },
+   "S_ok": true,
+   "S": 0.19224618223944753,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 2650,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.1,
+    "simultaneity": 1.4035087719298245
+   },
+   "S_ok": true,
+   "S": 0.10773516394756995,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 9675,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.4285714285714286
+   },
+   "S_ok": true,
+   "S": 0.28086438122288215,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 9675,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 6.0,
+    "regularity": -0.7711010737545348,
+    "alternation": 0.6923076923076923,
+    "simultaneity": 0.48780487804878053
+   },
+   "S_ok": true,
+   "S": 0.17853310850842083,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 2492,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.4806201550387597
+   },
+   "S_ok": true,
+   "S": 0.3248131741345496,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 952,
+   "posts_min": 70,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.8695652173913044
+   },
+   "S_ok": true,
+   "S": 0.17245260228087517,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3484,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.0389610389610389
+   },
+   "S_ok": true,
+   "S": 0.3116454014944704,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 22,
+   "posts_min": 2,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.5,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 21,
+   "posts_min": 1,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 12,
+   "words_min": 4530,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 8.0,
+    "regularity": -0.6308731662163258,
+    "alternation": 0.9230769230769231,
+    "simultaneity": 0.8771929824561403
+   },
+   "S_ok": true,
+   "S": 0.3490884825454045,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 7722,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.3783783783783785
+   },
+   "S_ok": true,
+   "S": 0.4656484104177675,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 18,
+   "words_min": 5237,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 6.0,
+    "regularity": -0.44469409559861756,
+    "alternation": 1.0,
+    "simultaneity": 1.3978494623655913
+   },
+   "S_ok": true,
+   "S": 0.4497069431855899,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 146,
+   "posts_min": 15,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.0
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4675,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.173913043478261
+   },
+   "S_ok": true,
+   "S": 0.3292641895938414,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 23,
+   "words_min": 4675,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 8.0,
+    "regularity": -0.8049527468099461,
+    "alternation": 1.0,
+    "simultaneity": 1.4814814814814814
+   },
+   "S_ok": true,
+   "S": 0.3424396726417072,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4427,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.25,
+    "simultaneity": 4.2105263157894735
+   },
+   "S_ok": true,
+   "S": 0.3917155935249315,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 2639,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.0
+   },
+   "S_ok": true,
+   "S": 0.1248976038879451,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 15,
+   "words_min": 11825,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.3670735509556399,
+    "alternation": 0.4117647058823529,
+    "simultaneity": 1.098901098901099
+   },
+   "S_ok": true,
+   "S": 0.32000283074598246,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4905,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.625
+   },
+   "S_ok": true,
+   "S": 0.193033090343811,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 33,
+   "words_min": 5292,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 8.0,
+    "regularity": -0.5736554127932285,
+    "alternation": 1.0,
+    "simultaneity": 2.0512820512820515
+   },
+   "S_ok": true,
+   "S": 0.06307919741094449,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 68,
+   "posts_min": 5,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.5345624848040684,
+    "alternation": 0.6,
+    "simultaneity": 1.0
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 8673,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.07142857142857142,
+    "simultaneity": 0.8333333333333334
+   },
+   "S_ok": true,
+   "S": 0.20901344836893965,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 8673,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.9090909090909091
+   },
+   "S_ok": true,
+   "S": 0.3408751945968347,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 17,
+   "posts_min": 2,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 14,
+   "words_min": 7807,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.5489744463999059,
+    "alternation": 1.0,
+    "simultaneity": 2.2727272727272725
+   },
+   "S_ok": true,
+   "S": 0.3133116301921601,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 7807,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.39525984254769964,
+    "alternation": 1.0,
+    "simultaneity": 0.7017543859649122
+   },
+   "S_ok": true,
+   "S": 0.2696171549775477,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 3828,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.28794008692208684,
+    "alternation": 0.8571428571428571,
+    "simultaneity": 1.4084507042253522
+   },
+   "S_ok": true,
+   "S": 0.29545252854023535,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 12,
+   "words_min": 3828,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.3900729445634162,
+    "alternation": 0.9230769230769231,
+    "simultaneity": 1.477832512315271
+   },
+   "S_ok": true,
+   "S": 0.3264522408041885,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 3828,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.47570500335110444,
+    "alternation": 0.42857142857142855,
+    "simultaneity": 1.1764705882352942
+   },
+   "S_ok": true,
+   "S": 0.1060363623891353,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 17,
+   "words_min": 1765,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 5.0,
+    "regularity": -0.5305373501239358,
+    "alternation": 1.0,
+    "simultaneity": 0.9090909090909091
+   },
+   "S_ok": true,
+   "S": 0.13478768861259538,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 1765,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.8604651162790697
+   },
+   "S_ok": true,
+   "S": -0.048496066780509,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 914,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.3333333333333333,
+    "simultaneity": 7.352941176470589
+   },
+   "S_ok": true,
+   "S": 0.032764010529924,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 3885,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5662376081870371,
+    "alternation": 1.0,
+    "simultaneity": 1.923076923076923
+   },
+   "S_ok": true,
+   "S": 0.1114354819223094,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3686,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.081081081081081
+   },
+   "S_ok": true,
+   "S": 0.41034870311738714,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 10,
+   "words_min": 1761,
+   "posts_min": 273,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5087943403216766,
+    "alternation": 1.0,
+    "simultaneity": 2.933333333333333
+   },
+   "S_ok": true,
+   "S": 0.06787994078003837,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 5009,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.37785958185575486,
+    "alternation": 1.0,
+    "simultaneity": 3.7288135593220337
+   },
+   "S_ok": true,
+   "S": 0.27667157282893673,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3074,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 3.1404958677685952
+   },
+   "S_ok": true,
+   "S": 0.04552694298600124,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 12,
+   "words_min": 1065,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.39797192365402645,
+    "alternation": 0.7333333333333333,
+    "simultaneity": 2.654867256637168
+   },
+   "S_ok": true,
+   "S": -0.0525861108598593,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4492,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.14478140464281938,
+    "alternation": 0.6,
+    "simultaneity": 1.0
+   },
+   "S_ok": true,
+   "S": 0.2619674510464333,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 2495,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.9090909090909091
+   },
+   "S_ok": true,
+   "S": 0.06310913632783258,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 3923,
+   "posts_min": 180,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.24817140121383102,
+    "alternation": 1.0,
+    "simultaneity": 3.2704402515723268
+   },
+   "S_ok": true,
+   "S": 0.35711282586263704,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 3754,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.7712400110224518,
+    "alternation": 0.8571428571428571,
+    "simultaneity": 1.322314049586777
+   },
+   "S_ok": true,
+   "S": 0.18971598842222873,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3,
+   "posts_min": 1,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3462,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.2,
+    "simultaneity": 1.639344262295082
+   },
+   "S_ok": true,
+   "S": 0.12956082996270957,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 10,
+   "words_min": 10628,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 5.0,
+    "regularity": -0.3992285511298568,
+    "alternation": 0.8461538461538461,
+    "simultaneity": 0.625
+   },
+   "S_ok": true,
+   "S": 0.22131574606542065,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 9450,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.7142857142857142
+   },
+   "S_ok": true,
+   "S": 0.33483035162443875,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4763,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.509433962264151
+   },
+   "S_ok": true,
+   "S": 0.28594151999703743,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 7874,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.2033898305084745
+   },
+   "S_ok": true,
+   "S": 0.2865066006009542,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 5863,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.597872969295612,
+    "alternation": 1.0,
+    "simultaneity": 1.6
+   },
+   "S_ok": true,
+   "S": 0.288060084437209,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3118,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.0
+   },
+   "S_ok": true,
+   "S": 0.20219504871136382,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 7,
+   "words_min": 2563,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.45505499746284866,
+    "alternation": 1.0,
+    "simultaneity": 3.5
+   },
+   "S_ok": true,
+   "S": -0.08445206996123673,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 5053,
+   "posts_min": 299,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.10188233501196116,
+    "alternation": 1.0,
+    "simultaneity": 2.0833333333333335
+   },
+   "S_ok": true,
+   "S": 0.27571417626007844,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 10,
+   "words_min": 7381,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.35580962235462466,
+    "alternation": 1.0,
+    "simultaneity": 2.6415094339622645
+   },
+   "S_ok": true,
+   "S": 0.33514116737273114,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 5550,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.7035929149825079,
+    "alternation": 1.0,
+    "simultaneity": 0.9523809523809523
+   },
+   "S_ok": true,
+   "S": 0.07566369342092451,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4803,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.06016716084244148,
+    "alternation": 0.18181818181818182,
+    "simultaneity": 2.0
+   },
+   "S_ok": true,
+   "S": 0.2728482436890466,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 3534,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.9804724297308283,
+    "alternation": 1.0,
+    "simultaneity": 1.4634146341463417
+   },
+   "S_ok": true,
+   "S": 0.17614930940543236,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 6730,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.5
+   },
+   "S_ok": true,
+   "S": 0.36149823042788964,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4,
+   "posts_min": 1,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 24,
+   "posts_min": 1,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 6,
+   "posts_min": 1,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4492,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.9523809523809523
+   },
+   "S_ok": true,
+   "S": 0.23740208163747512,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4488,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.2,
+    "simultaneity": 1.095890410958904
+   },
+   "S_ok": true,
+   "S": 0.15346960558791758,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 949,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 3.2835820895522385
+   },
+   "S_ok": true,
+   "S": 0.032844081350057834,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4328,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.47619047619047616
+   },
+   "S_ok": true,
+   "S": 0.4952765894756069,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 10,
+   "words_min": 3769,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.592521658966081,
+    "alternation": 0.45454545454545453,
+    "simultaneity": 1.7142857142857142
+   },
+   "S_ok": true,
+   "S": 0.24658273222120286,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 4957,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.2342939905097203,
+    "alternation": 0.6666666666666666,
+    "simultaneity": 0.8
+   },
+   "S_ok": true,
+   "S": 0.16478841634754365,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 2437,
+   "posts_min": 309,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -1.113359856674332,
+    "alternation": 1.0,
+    "simultaneity": 2.469135802469136
+   },
+   "S_ok": true,
+   "S": 0.10455641133269315,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4326,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.2641509433962264
+   },
+   "S_ok": true,
+   "S": -0.03064892229483842,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 4905,
+   "posts_min": 305,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.7212295396173646,
+    "alternation": 1.0,
+    "simultaneity": 3.3846153846153846
+   },
+   "S_ok": true,
+   "S": -0.06069787815708207,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 5863,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.851063829787234
+   },
+   "S_ok": true,
+   "S": 0.3969560554139796,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 6937,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.3953488372093024
+   },
+   "S_ok": true,
+   "S": 0.37689060503610494,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 7,
+   "posts_min": 1,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 9211,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.3333333333333333,
+    "simultaneity": 0.6741573033707865
+   },
+   "S_ok": true,
+   "S": 0.12187730770547446,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 1110,
+   "posts_min": 303,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.43987720217833565,
+    "alternation": 1.0,
+    "simultaneity": 1.2195121951219514
+   },
+   "S_ok": true,
+   "S": 0.07550484738202799,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 46,
+   "posts_min": 3,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 4007,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.2443705357759844,
+    "alternation": 1.0,
+    "simultaneity": 1.8556701030927836
+   },
+   "S_ok": true,
+   "S": 0.19112289217605108,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 6730,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.4285714285714286
+   },
+   "S_ok": true,
+   "S": 0.350658769925821,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 12,
+   "words_min": 1065,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.24371089910738272,
+    "alternation": 1.0,
+    "simultaneity": 2.361111111111111
+   },
+   "S_ok": true,
+   "S": -0.12337881126043218,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 8899,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.7017543859649122
+   },
+   "S_ok": true,
+   "S": 0.3793482361348646,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4896,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.9375
+   },
+   "S_ok": true,
+   "S": 0.31321201322793596,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 10,
+   "words_min": 6145,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.7809477315925237,
+    "alternation": 1.0,
+    "simultaneity": 3.495145631067961
+   },
+   "S_ok": true,
+   "S": 0.508412301067403,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 5040,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.4838986220903505,
+    "alternation": 1.0,
+    "simultaneity": 1.238938053097345
+   },
+   "S_ok": true,
+   "S": 0.4959310131053691,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 896,
+   "posts_min": 73,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.9090909090909091
+   },
+   "S_ok": true,
+   "S": 0.08454786201132358,
+   "S_volume": "reduced"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3754,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.83206106870229
+   },
+   "S_ok": true,
+   "S": 0.3174808318209601,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3964,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.25
+   },
+   "S_ok": true,
+   "S": 0.2858760640528816,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 12,
+   "words_min": 1651,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 4.0,
+    "regularity": -0.48321357067967885,
+    "alternation": 1.0,
+    "simultaneity": 0.5970149253731343
+   },
+   "S_ok": true,
+   "S": -0.09732744357773461,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 9450,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.34663237150226556,
+    "alternation": 1.0,
+    "simultaneity": 2.8169014084507045
+   },
+   "S_ok": true,
+   "S": 0.46396991028282997,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 8,
+   "words_min": 6375,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.26931483861111966,
+    "alternation": 1.0,
+    "simultaneity": 1.8181818181818181
+   },
+   "S_ok": true,
+   "S": 0.6202870331206204,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 59,
+   "words_min": 3484,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 23.0,
+    "regularity": -0.5378371418247417,
+    "alternation": 0.9833333333333333,
+    "simultaneity": 0.8
+   },
+   "S_ok": true,
+   "S": 0.2203193615885926,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 9865,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.1965317919075145
+   },
+   "S_ok": true,
+   "S": 0.0557227534916139,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 4835,
+   "posts_min": 301,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.422716305974051,
+    "alternation": 1.0,
+    "simultaneity": 1.6901408450704227
+   },
+   "S_ok": true,
+   "S": 0.31008835789415096,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 24,
+   "words_min": 7874,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 7.0,
+    "regularity": -0.4492559331260758,
+    "alternation": 0.9230769230769231,
+    "simultaneity": 1.0389610389610389
+   },
+   "S_ok": true,
+   "S": 0.3118232175233612,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 3013,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.30560775114571975,
+    "alternation": 1.0,
+    "simultaneity": 1.6326530612244896
+   },
+   "S_ok": true,
+   "S": 0.18913054879551935,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 10,
+   "words_min": 3118,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 3.0,
+    "regularity": -0.612189375194002,
+    "alternation": 1.0,
+    "simultaneity": 1.2765957446808511
+   },
+   "S_ok": true,
+   "S": 0.1803726487246601,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 20,
+   "words_min": 2563,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.603163820474381,
+    "alternation": 1.0,
+    "simultaneity": 1.4007782101167316
+   },
+   "S_ok": true,
+   "S": -0.10463798498119406,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 6,
+   "words_min": 5053,
+   "posts_min": 299,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.18664081954353567,
+    "alternation": 1.0,
+    "simultaneity": 2.5
+   },
+   "S_ok": true,
+   "S": 0.27514704260769357,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5555,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.2
+   },
+   "S_ok": true,
+   "S": 0.2582283803441381,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5650,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.6417910447761193
+   },
+   "S_ok": true,
+   "S": 0.08684852349337789,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3751,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 3.2
+   },
+   "S_ok": true,
+   "S": 0.22947635426044263,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 3828,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.7091663138248947,
+    "alternation": 1.0,
+    "simultaneity": 0.9756097560975611
+   },
+   "S_ok": true,
+   "S": 0.07081616081156564,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 29,
+   "words_min": 3492,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 14.0,
+    "regularity": -0.6328937699924632,
+    "alternation": 1.0,
+    "simultaneity": 1.0526315789473684
+   },
+   "S_ok": true,
+   "S": 0.10194182137708781,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 5040,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.5555555555555555
+   },
+   "S_ok": true,
+   "S": 0.2801276641477584,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5370,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 3.2
+   },
+   "S_ok": true,
+   "S": 0.3004146894661378,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 1651,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 3.6538461538461537
+   },
+   "S_ok": true,
+   "S": -0.050978480014777144,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3982,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.6901408450704227
+   },
+   "S_ok": true,
+   "S": 0.004168302457019268,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 9142,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5584343054761902,
+    "alternation": 0.42857142857142855,
+    "simultaneity": 0.6557377049180328
+   },
+   "S_ok": true,
+   "S": 0.3246660994728119,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 3335,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5348886548505101,
+    "alternation": 1.0,
+    "simultaneity": 1.3636363636363635
+   },
+   "S_ok": true,
+   "S": 0.27453873128242107,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 326,
+   "posts_min": 13,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.0
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 4,
+   "words_min": 7874,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.5462206676199488,
+    "alternation": 0.6666666666666666,
+    "simultaneity": 0.6349206349206349
+   },
+   "S_ok": true,
+   "S": 0.19057382012259816,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 1518,
+   "posts_min": 60,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.31088427438110755,
+    "alternation": 1.0,
+    "simultaneity": 2.608695652173913
+   },
+   "S_ok": true,
+   "S": 0.35772711976918015,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 10,
+   "words_min": 3730,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 5.0,
+    "regularity": -0.2695046102042095,
+    "alternation": 1.0,
+    "simultaneity": 1.4285714285714286
+   },
+   "S_ok": true,
+   "S": 0.051908654263898,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 3013,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.8888888888888888
+   },
+   "S_ok": true,
+   "S": 0.1697065338182582,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 24,
+   "words_min": 2065,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 14.0,
+    "regularity": -0.45327969895143594,
+    "alternation": 1.0,
+    "simultaneity": 1.1428571428571428
+   },
+   "S_ok": true,
+   "S": 0.210086357499832,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 5,
+   "words_min": 4427,
+   "posts_min": 300,
+   "I_ok": true,
+   "I": {
+    "recurrence": 2.0,
+    "regularity": -0.4883522250148102,
+    "alternation": 0.8,
+    "simultaneity": 1.3095238095238095
+   },
+   "S_ok": true,
+   "S": 0.195878717600474,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 2346,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.7142857142857143
+   },
+   "S_ok": true,
+   "S": 0.06822617620117406,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 4555,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 2.0
+   },
+   "S_ok": true,
+   "S": 0.12163048705192628,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 45,
+   "posts_min": 3,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.2,
+    "simultaneity": 0.9523809523809523
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3492,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.8
+   },
+   "S_ok": true,
+   "S": 0.26025735490450475,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 3,
+   "words_min": 3572,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.18289741252277905,
+    "alternation": 0.75,
+    "simultaneity": 1.0169491525423728
+   },
+   "S_ok": true,
+   "S": 0.2759399223039501,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 23,
+   "posts_min": 3,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.0
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 5149,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 4.375
+   },
+   "S_ok": true,
+   "S": 0.21412958596610507,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 14,
+   "posts_min": 2,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": null
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 9,
+   "words_min": 166,
+   "posts_min": 8,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.7023453671001798,
+    "alternation": 0.9,
+    "simultaneity": 0.8695652173913044
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 359,
+   "posts_min": 9,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 0.9523809523809523
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 2065,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.2,
+    "simultaneity": 1.7391304347826089
+   },
+   "S_ok": true,
+   "S": 0.2641055436465946,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 12,
+   "words_min": 359,
+   "posts_min": 9,
+   "I_ok": true,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": -0.9197962768639427,
+    "alternation": 0.5,
+    "simultaneity": 1.8181818181818181
+   },
+   "S_ok": false,
+   "S": null,
+   "S_volume": "insufficient"
+  },
+  {
+   "exchanges": 2,
+   "words_min": 4534,
+   "posts_min": 301,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": 0.6666666666666666,
+    "simultaneity": 1.9047619047619047
+   },
+   "S_ok": true,
+   "S": 0.41689162404139235,
+   "S_volume": "full"
+  },
+  {
+   "exchanges": 1,
+   "words_min": 3032,
+   "posts_min": 300,
+   "I_ok": false,
+   "I": {
+    "recurrence": 1.0,
+    "regularity": null,
+    "alternation": null,
+    "simultaneity": 1.9354838709677418
+   },
+   "S_ok": true,
+   "S": 0.22685016068317485,
+   "S_volume": "full"
+  }
+ ]
+}
