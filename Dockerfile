@@ -7,7 +7,7 @@ COPY app ./app
 COPY frontend ./frontend
 COPY eval ./eval
 ARG GIT_COMMIT=unknown
-ENV GIT_COMMIT=$GIT_COMMIT DB_PATH=/data/polartrap.db
+ENV GIT_COMMIT=$GIT_COMMIT DB_PATH=/data/polartrap.db RESULTS_PATH=/data/results.json
 RUN useradd -m app && mkdir -p /data && chown app /data
 USER app
 EXPOSE 8000

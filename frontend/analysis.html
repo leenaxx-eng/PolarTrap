@@ -1,11 +1,27 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Thread analysis</title><link rel="stylesheet" href="/static/style.css"></head>
+<title>Thread analysis</title><link rel="stylesheet" href="/static/style.css"><link rel="stylesheet" href="/static/analysis.css"></head>
 <body>
 <header class="top"><a class="brand" href="/">PolarTrap</a>
   <nav><a href="/metrics">Metrics</a><a href="/about">About &amp; limitations</a><a href="/sandbox">Sandbox</a></nav></header>
-<main>
+<main class="wide">
   <h1>Thread analysis</h1>
-  <p class="notice">Thread analysis is under construction (milestone M2).</p>
+  <div id="status" class="card"></div>
+  <div id="report" hidden>
+    <div id="banners"></div>
+    <div class="card root" id="rootText"></div>
+    <div id="metricCards" class="metrics"></div>
+    <p class="small muted">Percentiles compare a pair with comparable real antagonistic pairs in the frozen reference corpus.
+      They are not probabilities of coordination. Labels are signals for human review, not proof.</p>
+    <h2>Participants by position <span class="small muted">(display only; derived from agree/disagree replies)</span></h2>
+    <div class="cols"><div><h3>Pro</h3><ul id="colPro"></ul></div><div><h3>Con</h3><ul id="colCon"></ul></div>
+      <div><h3>Mixed / unknown</h3><ul id="colOther"></ul></div></div>
+    <h2>Pairs needing review</h2>
+    <div id="flagged"></div>
+    <details><summary id="sumNo"></summary><div id="noStrong"></div></details>
+    <details><summary id="sumIns"></summary><div id="insufficient"></div></details>
+    <div id="notes" class="small muted"></div>
+  </div>
 </main>
+<script src="/static/analysis.js"></script>
 </body></html>

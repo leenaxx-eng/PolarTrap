@@ -6,7 +6,34 @@
   <nav><a href="/metrics">Metrics</a><a href="/about">About &amp; limitations</a><a href="/sandbox">Sandbox</a></nav></header>
 <main>
   <h1>Metrics</h1>
-  <p class="notice">No evaluation results yet. Sandbox data collection is in progress. This page will show only numbers
-    produced by <code>eval/run_eval.py</code>, each with its sample size and a participant-level 95% interval.</p>
+  <div id="none" class="notice" hidden>No evaluation results yet. This page shows only numbers produced by
+    <code>eval/run_eval.py</code>, each with its sample size and a participant-level 95% interval.</div>
+  <div id="m" hidden>
+    <h2 id="header"></h2>
+    <p class="small muted" id="meta"></p>
+    <p class="notice small">Detection rates are measured only in the sandbox, where we know which pairs were coordinated.
+      They come from a small exploratory pilot and are not validated performance. False-flag rates for types C and D apply
+      to the sandbox setting only and may not carry over to Bluesky.</p>
+    <h3>Flag rate per pair type</h3>
+    <table id="perType"></table>
+    <p class="small muted">A and B are coordinated (detection rate). C and D are genuine arguments (false-flag rate).
+      "Flagged" = <span id="flagLabels"></span>. Intervals: 95% cluster bootstrap resampling participants, not pairs.</p>
+    <h3>Label distribution</h3><table id="labels"></table>
+    <h3>Confusion table</h3><table id="confusion"></table>
+    <h3>Exploratory ablation: which signal catches which type</h3><table id="ablation"></table>
+    <h3>Stance classification</h3><p id="stance" class="small"></p>
+    <h3>Real Bluesky data vs chance level</h3><div id="real" class="small"></div>
+    <h3>Evidence-quality review</h3><div id="review" class="small"></div>
+    <h3>Reference corpus</h3><div id="ref" class="small"></div>
+    <h3>What we don't measure</h3>
+    <ul class="small">
+      <li>Precision or false-positive rate on real Bluesky data: there is no ground truth there, so we only compare flag counts with chance level.</li>
+      <li>Performance against operators who deliberately vary their writing style.</li>
+      <li>Whether staged arguments between two different people (type B) can be told apart from intense genuine ones (type D) using interaction evidence alone; the ablation shows what each key contributes.</li>
+      <li>Non-English content.</li>
+    </ul>
+    <p class="small muted" id="disclaimer"></p>
+  </div>
 </main>
+<script src="/static/metrics.js"></script>
 </body></html>

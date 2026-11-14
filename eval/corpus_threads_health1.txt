@@ -1,0 +1,16 @@
+# Topic cluster "health1": measles / vaccines / raw milk / federal health policy. Chosen 2026-11-14 from
+# public news-account posts via `python -m app.corpus discover`, before any sandbox data was analysed.
+at://did:plc:jbvnehrrdqoulco4rf5gxg5r/app.bsky.feed.post/3n2acdyw25s2g
+at://did:plc:k4jt6heuiamymgi46yeuxtpt/app.bsky.feed.post/3mzwbgrnirc2y
+at://did:plc:k4jt6heuiamymgi46yeuxtpt/app.bsky.feed.post/3mxovbjjzfc2l
+at://did:plc:k4jt6heuiamymgi46yeuxtpt/app.bsky.feed.post/3mzmha2vgmq2t
+at://did:plc:dzezcmpb3fhcpns4n4xm4ur5/app.bsky.feed.post/3n2agtcd65a2s
+at://did:plc:eclio37ymobqex2ncko63h4r/app.bsky.feed.post/3mzyuawgisp2b
+at://did:plc:k4jt6heuiamymgi46yeuxtpt/app.bsky.feed.post/3mzv7e3z4ww2x
+at://did:plc:k4jt6heuiamymgi46yeuxtpt/app.bsky.feed.post/3n2aeg7u5gw2v
+at://did:plc:k4jt6heuiamymgi46yeuxtpt/app.bsky.feed.post/3myg5jnx6lh24
+at://did:plc:dzezcmpb3fhcpns4n4xm4ur5/app.bsky.feed.post/3n27744cew226
+at://did:plc:a67zdrt4nl2tv2qojpngogbq/app.bsky.feed.post/3n27rl3jadw2g
+at://did:plc:a67zdrt4nl2tv2qojpngogbq/app.bsky.feed.post/3n24w4zatb22p
+at://did:plc:ln72v57ivz2g46uqf4xxqiuh/app.bsky.feed.post/3mzd7p7k5zx2x
+at://did:plc:k5nskatzhyxersjilvtnz4lh/app.bsky.feed.post/3mzqjphk5tu2p

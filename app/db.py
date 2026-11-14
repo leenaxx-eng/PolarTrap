@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS corpus_snapshots(
 
 CREATE TABLE IF NOT EXISTS analyses(
   id TEXT PRIMARY KEY, kind TEXT, input TEXT, status TEXT, created_at TEXT,
-  finished_at TEXT, result_json TEXT, error TEXT);
+  finished_at TEXT, result_json TEXT, error TEXT, progress TEXT, admin_json TEXT);
 
 CREATE TABLE IF NOT EXISTS feedback(
   id INTEGER PRIMARY KEY, analysis_id TEXT, pair_key TEXT, reviewer TEXT,
@@ -49,6 +49,12 @@ CREATE TABLE IF NOT EXISTS sandbox_codes(
 CREATE TABLE IF NOT EXISTS sandbox_sessions(
   token_hash TEXT PRIMARY KEY, persona_id TEXT NOT NULL REFERENCES sandbox_personas(id),
   created_at TEXT NOT NULL, expires_at TEXT NOT NULL);
+
+CREATE TABLE IF NOT EXISTS http_cache(
+  key TEXT PRIMARY KEY, body TEXT NOT NULL, fetched_at REAL NOT NULL);
+
+CREATE TABLE IF NOT EXISTS stance_cache(
+  key TEXT PRIMARY KEY, relation TEXT NOT NULL, confidence REAL, model TEXT, created_at TEXT);
 
 -- Ground-truth labels. NEVER read by detector code (only eval/ and admin).
 CREATE TABLE IF NOT EXISTS sandbox_labels(
@@ -82,5 +88,9 @@ def init_db() -> None:
     con = connect()
     try:
         con.executescript(SCHEMA)
+        cols = {r[1] for r in con.execute("PRAGMA table_info(analyses)")}
+        for col in ("progress", "admin_json"):
+            if col not in cols:
+                con.execute(f"ALTER TABLE analyses ADD COLUMN {col} TEXT")
     finally:
         con.close()
